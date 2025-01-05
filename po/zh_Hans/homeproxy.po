@@ -2416,7 +2416,9 @@ msgstr "微步 公共DNS (117.50.10.10)"
 msgid ""
 "Timeout of rejected DNS response cache in seconds. <code>604800 (7d)</code> "
 "is used by default."
-msgstr "被拒绝的 DNS 响应缓存超时时间（单位：秒）。默认为 <code>604800（7 天）</code>。"
+msgstr ""
+"被拒绝的 DNS 响应缓存超时时间（单位：秒）。默认为 <code>604800（7 天）</"
+"code>。"
 
 #: htdocs/luci-static/resources/view/homeproxy/server.js:485
 msgid ""
