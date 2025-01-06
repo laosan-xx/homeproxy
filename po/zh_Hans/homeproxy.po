@@ -2109,8 +2109,8 @@ msgstr ""
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:159
 msgid ""
-"Support UDP, TCP, DoH, DoT, DoQ. TCP protocol will be used if not specified."
-msgstr "支持 UDP、TCP、DoH、DoT、DoQ。如未指定则使用 TCP 协议。"
+"Support UDP, TCP, DoH, DoQ, DoT. TCP protocol will be used if not specified."
+msgstr "支持 UDP、TCP、DoH、DoQ、DoT。如未指定则使用 TCP 协议。"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:297
 msgid "System"
@@ -2240,8 +2240,8 @@ msgstr ""
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:782
 msgid ""
-"The address of the dns server. Support UDP, TCP, DoH, DoT, DoQ and RCode."
-msgstr "DNS 服务器的地址。支持 UDP、TCP、DoH、DoT、DoQ 和 RCode。"
+"The address of the dns server. Support UDP, TCP, DoH, DoQ, DoT and RCode."
+msgstr "DNS 服务器的地址。支持 UDP、TCP、DoH、DoQ、DoT 和 RCode。"
 
 #: htdocs/luci-static/resources/view/homeproxy/server.js:677
 msgid ""
@@ -2292,8 +2292,8 @@ msgstr ""
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:197
 msgid ""
-"The dns server for resolving China domains. Support UDP, TCP, DoH, DoT, DoQ."
-msgstr "用于解析国内域名的 DNS 服务器。支持 UDP、TCP、DoH、DoT、DoQ。"
+"The dns server for resolving China domains. Support UDP, TCP, DoH, DoQ, DoT."
+msgstr "用于解析国内域名的 DNS 服务器。支持 UDP、TCP、DoH、DoQ、DoT。"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:841
 msgid "The domain strategy for resolving the domain name in the address."

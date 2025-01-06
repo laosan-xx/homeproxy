@@ -156,7 +156,7 @@ return view.extend({
 		o.rmempty = false;
 
 		o = s.taboption('routing', form.Value, 'dns_server', _('DNS server'),
-			_('Support UDP, TCP, DoH, DoT, DoQ. TCP protocol will be used if not specified.'));
+			_('Support UDP, TCP, DoH, DoQ, DoT. TCP protocol will be used if not specified.'));
 		o.value('wan', _('WAN DNS (read from interface)'));
 		o.value('1.1.1.1', _('CloudFlare Public DNS (1.1.1.1)'));
 		o.value('8.8.8.8', _('Google Public DNS (8.8.8.8)'));
@@ -194,7 +194,7 @@ return view.extend({
 		}
 
 		o = s.taboption('routing', form.Value, 'china_dns_server', _('China DNS server'),
-			_('The dns server for resolving China domains. Support UDP, TCP, DoH, DoT, DoQ.'));
+			_('The dns server for resolving China domains. Support UDP, TCP, DoH, DoQ, DoT.'));
 		o.value('wan', _('WAN DNS (read from interface)'));
 		o.value('117.50.10.10', _('ThreatBook Public DNS (117.50.10.10)'));
 		o.value('119.29.29.29', _('Tencent Public DNS (119.29.29.29)'));
@@ -779,7 +779,7 @@ return view.extend({
 		so.editable = true;
 
 		so = ss.option(form.Value, 'address', _('Address'),
-			_('The address of the dns server. Support UDP, TCP, DoH, DoT, DoQ and RCode.'));
+			_('The address of the dns server. Support UDP, TCP, DoH, DoQ, DoT and RCode.'));
 		so.rmempty = false;
 		so.validate = function(section_id, value) {
 			if (section_id) {
