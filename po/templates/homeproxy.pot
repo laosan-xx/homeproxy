@@ -212,7 +212,7 @@ msgstr ""
 msgid "BBR"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/homeproxy/status.js:194
+#: htdocs/luci-static/resources/view/homeproxy/status.js:187
 msgid "BaiDu"
 msgstr ""
 
@@ -308,15 +308,15 @@ msgstr ""
 msgid "China DNS server"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/homeproxy/status.js:204
+#: htdocs/luci-static/resources/view/homeproxy/status.js:197
 msgid "China IPv4 list version"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/homeproxy/status.js:208
+#: htdocs/luci-static/resources/view/homeproxy/status.js:201
 msgid "China IPv6 list version"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/homeproxy/status.js:212
+#: htdocs/luci-static/resources/view/homeproxy/status.js:205
 msgid "China list version"
 msgstr ""
 
@@ -372,7 +372,7 @@ msgstr ""
 msgid "Congestion control algorithm"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/homeproxy/status.js:191
+#: htdocs/luci-static/resources/view/homeproxy/status.js:184
 msgid "Connection check"
 msgstr ""
 
@@ -798,7 +798,7 @@ msgstr ""
 msgid "GET"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/homeproxy/status.js:216
+#: htdocs/luci-static/resources/view/homeproxy/status.js:209
 msgid "GFW list version"
 msgstr ""
 
@@ -856,7 +856,7 @@ msgstr ""
 msgid "Global settings"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/homeproxy/status.js:197
+#: htdocs/luci-static/resources/view/homeproxy/status.js:190
 msgid "Google"
 msgstr ""
 
@@ -904,7 +904,7 @@ msgstr ""
 #: htdocs/luci-static/resources/view/homeproxy/client.js:55
 #: htdocs/luci-static/resources/view/homeproxy/client.js:57
 #: htdocs/luci-static/resources/view/homeproxy/client.js:120
-#: htdocs/luci-static/resources/view/homeproxy/status.js:224
+#: htdocs/luci-static/resources/view/homeproxy/status.js:217
 #: root/usr/share/luci/menu.d/luci-app-homeproxy.json:3
 msgid "HomeProxy"
 msgstr ""
@@ -1802,7 +1802,7 @@ msgstr ""
 msgid "Resolve strategy"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/homeproxy/status.js:201
+#: htdocs/luci-static/resources/view/homeproxy/status.js:194
 msgid "Resources management"
 msgstr ""
 
@@ -2666,11 +2666,11 @@ msgstr ""
 msgid "quic-go / uquic chrome"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/homeproxy/status.js:227
+#: htdocs/luci-static/resources/view/homeproxy/status.js:220
 msgid "sing-box client"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/homeproxy/status.js:230
+#: htdocs/luci-static/resources/view/homeproxy/status.js:223
 msgid "sing-box server"
 msgstr ""
 
