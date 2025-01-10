@@ -483,7 +483,7 @@ msgstr "默认服务器名称"
 msgid "Direct"
 msgstr "直连"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1302
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1306
 msgid "Direct Domain List"
 msgstr "直连域名列表"
 
@@ -765,8 +765,8 @@ msgstr "加密方式"
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1149
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1154
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1157
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1295
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1324
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1299
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1332
 #: htdocs/luci-static/resources/view/homeproxy/node.js:452
 #: htdocs/luci-static/resources/view/homeproxy/node.js:1087
 #: htdocs/luci-static/resources/view/homeproxy/node.js:1260
@@ -2803,8 +2803,8 @@ msgstr "有效网址"
 msgid "valid base64 key with %d characters"
 msgstr "包含 %d 个字符的有效 base64 密钥"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1295
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1324
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1299
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1332
 msgid "valid hostname"
 msgstr "有效主机名"
 

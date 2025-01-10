@@ -474,7 +474,7 @@ msgstr ""
 msgid "Direct"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1302
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1306
 msgid "Direct Domain List"
 msgstr ""
 
@@ -744,8 +744,8 @@ msgstr ""
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1149
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1154
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1157
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1295
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1324
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1299
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1332
 #: htdocs/luci-static/resources/view/homeproxy/node.js:452
 #: htdocs/luci-static/resources/view/homeproxy/node.js:1087
 #: htdocs/luci-static/resources/view/homeproxy/node.js:1260
@@ -2735,8 +2735,8 @@ msgstr ""
 msgid "valid base64 key with %d characters"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1295
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1324
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1299
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1332
 msgid "valid hostname"
 msgstr ""
 
