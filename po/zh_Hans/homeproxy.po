@@ -43,7 +43,7 @@ msgstr "留空则不校验。"
 msgid "Accept empty query response"
 msgstr "接受空查询响应"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1235
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1236
 msgid "Access Control"
 msgstr "访问控制"
 
@@ -239,11 +239,11 @@ msgid "Binary file"
 msgstr "二进制文件"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:441
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1248
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1249
 msgid "Bind interface"
 msgstr "绑定接口"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1249
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1250
 msgid ""
 "Bind outbound traffic to specific interface. Leave empty to auto detect."
 msgstr "绑定出站流量至指定端口。留空自动检测。"
@@ -483,28 +483,28 @@ msgstr "默认服务器名称"
 msgid "Direct"
 msgstr "直连"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1351
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1352
 msgid "Direct Domain List"
 msgstr "直连域名列表"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1264
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1309
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1265
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1310
 msgid "Direct IPv4 IP-s"
 msgstr "直连 IPv4 地址"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1267
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1312
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1268
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1313
 msgid "Direct IPv6 IP-s"
 msgstr "直连 IPv6 地址"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1270
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1271
 msgid "Direct MAC-s"
 msgstr "直连 MAC 地址"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:142
 #: htdocs/luci-static/resources/view/homeproxy/client.js:170
 #: htdocs/luci-static/resources/view/homeproxy/client.js:388
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1258
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1259
 #: htdocs/luci-static/resources/view/homeproxy/node.js:473
 #: htdocs/luci-static/resources/view/homeproxy/node.js:492
 #: htdocs/luci-static/resources/view/homeproxy/node.js:504
@@ -765,8 +765,8 @@ msgstr "加密方式"
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1194
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1199
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1202
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1344
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1377
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1345
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1378
 #: htdocs/luci-static/resources/view/homeproxy/node.js:452
 #: htdocs/luci-static/resources/view/homeproxy/node.js:1087
 #: htdocs/luci-static/resources/view/homeproxy/node.js:1260
@@ -827,15 +827,15 @@ msgstr "GFW 域名列表版本"
 msgid "GFWList"
 msgstr "GFWList"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1282
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1283
 msgid "Gaming mode IPv4 IP-s"
 msgstr "游戏模式 IPv4 地址"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1284
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1285
 msgid "Gaming mode IPv6 IP-s"
 msgstr "游戏模式 IPv6 地址"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1287
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1288
 msgid "Gaming mode MAC-s"
 msgstr "游戏模式 MAC 地址"
 
@@ -861,15 +861,15 @@ msgstr "全局"
 msgid "Global padding"
 msgstr "全局填充"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1289
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1290
 msgid "Global proxy IPv4 IP-s"
 msgstr "全局代理 IPv4 地址"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1292
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1293
 msgid "Global proxy IPv6 IP-s"
 msgstr "全局代理 IPv6 地址"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1295
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1296
 msgid "Global proxy MAC-s"
 msgstr "全局代理 MAC 地址"
 
@@ -1058,8 +1058,11 @@ msgstr "导入"
 msgid "Import share links"
 msgstr "导入分享链接"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:360
 #: htdocs/luci-static/resources/view/homeproxy/server.js:799
+msgid "In seconds."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/homeproxy/client.js:360
 msgid "In seconds. <code>300</code> is used by default."
 msgstr "单位：秒。默认使用 <code>300</code>。"
 
@@ -1067,7 +1070,7 @@ msgstr "单位：秒。默认使用 <code>300</code>。"
 msgid "Independent cache per server"
 msgstr "独立缓存"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1241
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1242
 msgid "Interface Control"
 msgstr "接口控制"
 
@@ -1100,7 +1103,7 @@ msgstr "反转匹配结果"
 msgid "Key path"
 msgstr "证书路径"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1255
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1256
 msgid "LAN IP Policy"
 msgstr "LAN IP 策略"
 
@@ -1151,7 +1154,7 @@ msgstr "支持的应用层协议协商列表，按顺序排列。"
 msgid "Listen address"
 msgstr "监听地址"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1243
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1244
 msgid "Listen interfaces"
 msgstr "监听接口"
 
@@ -1495,7 +1498,7 @@ msgstr "混淆密码"
 msgid "Obfuscate type"
 msgstr "混淆类型"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1244
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1245
 msgid "Only process traffic from specific interfaces. Leave empty for all."
 msgstr "只处理来自指定接口的流量。留空表示全部。"
 
@@ -1674,33 +1677,33 @@ msgid ""
 "default in v2ray and cannot be disabled)."
 msgstr "协议参数。 如启用会随机浪费流量（在 v2ray 中默认启用并且无法禁用）。"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1318
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1319
 msgid "Proxy Domain List"
 msgstr "代理域名列表"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1273
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1302
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1274
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1303
 msgid "Proxy IPv4 IP-s"
 msgstr "代理 IPv4 地址"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1276
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1305
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1277
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1306
 msgid "Proxy IPv6 IP-s"
 msgstr "代理 IPv6 地址"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1279
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1280
 msgid "Proxy MAC-s"
 msgstr "代理 MAC 地址"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1260
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1261
 msgid "Proxy all except listed"
 msgstr "仅允许列表外"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1257
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1258
 msgid "Proxy filter mode"
 msgstr "代理过滤模式"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1259
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1260
 msgid "Proxy listed only"
 msgstr "仅允许列表内"
 
@@ -2237,12 +2240,8 @@ msgid "The QUIC stream-level flow control window for receiving data."
 msgstr "用于接收数据的 QUIC 流级流控制窗口。"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:493
-msgid ""
-"The URL to test. <code>https://www.gstatic.com/generate_204</code> will be "
-"used if empty."
+msgid "The URL to test."
 msgstr ""
-"用于测试的 URL。如留空，默认为 <code>https://www.gstatic.com/generate_204</"
-"code>。"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:827
 msgid ""
@@ -2319,8 +2318,8 @@ msgid ""
 msgstr "创建或选择现有 ACME 服务器帐户时使用的电子邮件地址。"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:536
-msgid "The idle timeout in seconds. <code>1800</code> will be used if empty."
-msgstr "空闲超时时间（单位：秒）。如留空，默认为 <code>1800</code>。"
+msgid "The idle timeout in seconds."
+msgstr ""
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:999
 #: htdocs/luci-static/resources/view/homeproxy/server.js:576
@@ -2382,15 +2381,14 @@ msgstr "上游出站的标签。<br/>启用时，其他拨号字段将被忽略�
 #: htdocs/luci-static/resources/view/homeproxy/client.js:158
 #: htdocs/luci-static/resources/view/homeproxy/client.js:187
 #: htdocs/luci-static/resources/view/homeproxy/client.js:513
-msgid "The test interval in seconds. <code>180</code> will be used if empty."
-msgstr "测试间隔时间（单位：秒）。如留空，默认为 <code>180</code>。"
+msgid "The test interval in seconds."
+msgstr ""
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:164
 #: htdocs/luci-static/resources/view/homeproxy/client.js:193
 #: htdocs/luci-static/resources/view/homeproxy/client.js:529
-msgid ""
-"The test tolerance in milliseconds. <code>50</code> will be used if empty."
-msgstr "测试容差时间（单位：毫秒）。如留空，默认为 <code>50</code>。"
+msgid "The test tolerance in milliseconds."
+msgstr ""
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:745
 #: htdocs/luci-static/resources/view/homeproxy/server.js:459
@@ -2543,8 +2541,8 @@ msgid "Update interval"
 msgstr "更新间隔"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1230
-msgid "Update interval of rule set.<br/><code>1d</code> will be used if empty."
-msgstr "规则集更新间隔。<br/>留空使用 <code>1d</code>。"
+msgid "Update interval of rule set."
+msgstr ""
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:1365
 msgid "Update nodes from subscriptions"
@@ -2628,7 +2626,7 @@ msgstr "VMess"
 msgid "WAN DNS (read from interface)"
 msgstr "WAN DNS（从接口获取）"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1300
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1301
 msgid "WAN IP Policy"
 msgstr "WAN IP 策略"
 
@@ -2817,8 +2815,8 @@ msgstr "有效网址"
 msgid "valid base64 key with %d characters"
 msgstr "包含 %d 个字符的有效 base64 密钥"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1344
-#: htdocs/luci-static/resources/view/homeproxy/client.js:1377
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1345
+#: htdocs/luci-static/resources/view/homeproxy/client.js:1378
 msgid "valid hostname"
 msgstr "有效主机名"
 
@@ -2833,6 +2831,29 @@ msgstr "有效端口值"
 #: htdocs/luci-static/resources/homeproxy.js:303
 msgid "valid uuid"
 msgstr "有效 uuid"
+
+#~ msgid ""
+#~ "The URL to test. <code>https://www.gstatic.com/generate_204</code> will "
+#~ "be used if empty."
+#~ msgstr ""
+#~ "用于测试的 URL。如留空，默认为 <code>https://www.gstatic.com/"
+#~ "generate_204</code>。"
+
+#~ msgid ""
+#~ "The idle timeout in seconds. <code>1800</code> will be used if empty."
+#~ msgstr "空闲超时时间（单位：秒）。如留空，默认为 <code>1800</code>。"
+
+#~ msgid ""
+#~ "The test interval in seconds. <code>180</code> will be used if empty."
+#~ msgstr "测试间隔时间（单位：秒）。如留空，默认为 <code>180</code>。"
+
+#~ msgid ""
+#~ "The test tolerance in milliseconds. <code>50</code> will be used if empty."
+#~ msgstr "测试容差时间（单位：毫秒）。如留空，默认为 <code>50</code>。"
+
+#~ msgid ""
+#~ "Update interval of rule set.<br/><code>1d</code> will be used if empty."
+#~ msgstr "规则集更新间隔。<br/>留空使用 <code>1d</code>。"
 
 #~ msgid "It MUST support TCP query."
 #~ msgstr "它必须支持 TCP 查询。"
