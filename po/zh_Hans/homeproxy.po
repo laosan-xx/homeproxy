@@ -1060,7 +1060,7 @@ msgstr "导入分享链接"
 
 #: htdocs/luci-static/resources/view/homeproxy/server.js:799
 msgid "In seconds."
-msgstr ""
+msgstr "单位：秒。"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:360
 msgid "In seconds. <code>300</code> is used by default."
@@ -2241,7 +2241,7 @@ msgstr "用于接收数据的 QUIC 流级流控制窗口。"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:493
 msgid "The URL to test."
-msgstr ""
+msgstr "用于测试的 URL。"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:827
 msgid ""
@@ -2319,7 +2319,7 @@ msgstr "创建或选择现有 ACME 服务器帐户时使用的电子邮件地址
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:536
 msgid "The idle timeout in seconds."
-msgstr ""
+msgstr "空闲超时时间（单位：秒）。"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:999
 #: htdocs/luci-static/resources/view/homeproxy/server.js:576
@@ -2382,13 +2382,13 @@ msgstr "上游出站的标签。<br/>启用时，其他拨号字段将被忽略�
 #: htdocs/luci-static/resources/view/homeproxy/client.js:187
 #: htdocs/luci-static/resources/view/homeproxy/client.js:513
 msgid "The test interval in seconds."
-msgstr ""
+msgstr "测试间隔时间（单位：秒）。"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:164
 #: htdocs/luci-static/resources/view/homeproxy/client.js:193
 #: htdocs/luci-static/resources/view/homeproxy/client.js:529
 msgid "The test tolerance in milliseconds."
-msgstr ""
+msgstr "测试容差时间（单位：毫秒）。"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:745
 #: htdocs/luci-static/resources/view/homeproxy/server.js:459
@@ -2542,7 +2542,7 @@ msgstr "更新间隔"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1230
 msgid "Update interval of rule set."
-msgstr ""
+msgstr "规则集更新间隔。"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:1365
 msgid "Update nodes from subscriptions"

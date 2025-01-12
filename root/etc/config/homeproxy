@@ -25,7 +25,7 @@ config homeproxy 'config'
 	option proxy_mode 'redirect_tproxy'
 	option ipv6_support '1'
 	option china_dns_server '223.5.5.5'
-	option main_urltest_interval '600'
+	option main_urltest_interval '300'
 
 config homeproxy 'control'
 	option lan_proxy_mode 'disabled'
