@@ -47,7 +47,7 @@ const routing_mode = uci.get(uciconfig, ucimain, 'routing_mode') || 'bypass_main
 
 let wan_dns = ubus.call('network.interface', 'status', {'interface': 'wan'})?.['dns-server']?.[0];
 if (!wan_dns)
-	wan_dns = (routing_mode in ['proxy_mainland_china', 'global']) ? '9.9.9.9' : '223.5.5.5';
+	wan_dns = (routing_mode in ['proxy_mainland_china', 'global']) ? 'https://dns.quad9.net/dns-query' : 'https://dns.alidns.com/dns-query';
 
 const dns_port = uci.get(uciconfig, uciinfra, 'dns_port') || '5333';
 
