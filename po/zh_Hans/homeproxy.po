@@ -57,7 +57,7 @@ msgstr "访问密钥"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:204
 msgid "AdGuard Public DNS (DoH)"
-msgstr ""
+msgstr "AdGuard 公共DNS (DoH)"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:930
 msgid "Add a DNS rule"
@@ -106,7 +106,7 @@ msgstr "AliYun"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:240
 msgid "AliYun Public DNS (DoH)"
-msgstr ""
+msgstr "阿里 公共DNS (DoH)"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:283
 msgid "All ports"
@@ -340,7 +340,7 @@ msgstr "密码套件"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:206
 msgid "Cisco Public DNS (DoH)"
-msgstr ""
+msgstr "Cisco 公共DNS (DoH)"
 
 #: htdocs/luci-static/resources/view/homeproxy/status.js:166
 msgid "Clean log"
@@ -364,7 +364,7 @@ msgstr "CloudFlare"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:201
 msgid "CloudFlare Public DNS (DoH)"
-msgstr ""
+msgstr "CloudFlare 公共DNS (DoH)"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:133
 #: htdocs/luci-static/resources/view/homeproxy/server.js:110
@@ -424,7 +424,7 @@ msgstr "DNS 服务器"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:205
 msgid "DNS.SB Public DNS (DoH)"
-msgstr ""
+msgstr "DNS.SB 公共DNS (DoH)"
 
 #: htdocs/luci-static/resources/view/homeproxy/server.js:633
 msgid "DNS01 challenge"
@@ -883,7 +883,7 @@ msgstr "谷歌"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:202
 msgid "Google Public DNS (DoH)"
-msgstr ""
+msgstr "Google 公共DNS (DoH)"
 
 #: root/usr/share/rpcd/acl.d/luci-app-homeproxy.json:3
 msgid "Grant access to homeproxy configuration"
@@ -1744,7 +1744,7 @@ msgstr "QUIC 流接收窗口"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:203
 msgid "Quad9 Public DNS (DoH)"
-msgstr ""
+msgstr "Quad9 公共DNS (DoH)"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:969
 msgid "Query type"
@@ -2199,7 +2199,7 @@ msgstr "让客户端使用 BBR 流控算法。"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:239
 msgid "Tencent Public DNS (DoH)"
-msgstr ""
+msgstr "腾讯 公共DNS (DoH)"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:491
 msgid "Test URL"
@@ -2418,7 +2418,7 @@ msgstr ""
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:238
 msgid "ThreatBook Public DNS (DoH)"
-msgstr ""
+msgstr "微步 公共DNS (DoH)"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:796
 msgid ""
@@ -2827,76 +2827,3 @@ msgstr "有效端口值"
 #: htdocs/luci-static/resources/homeproxy.js:303
 msgid "valid uuid"
 msgstr "有效 uuid"
-
-#~ msgid "AdGuard Public DNS (94.140.14.140)"
-#~ msgstr "AdGuard 公共DNS (94.140.14.140)"
-
-#~ msgid "AliYun Public DNS (223.5.5.5)"
-#~ msgstr "阿里 公共DNS (223.5.5.5)"
-
-#~ msgid "Cisco Public DNS (208.67.222.222)"
-#~ msgstr "Cisco 公共DNS (208.67.222.222)"
-
-#~ msgid "CloudFlare Public DNS (1.1.1.1)"
-#~ msgstr "CloudFlare 公共DNS (1.1.1.1)"
-
-#~ msgid "DNS.SB Public DNS (185.222.222.222)"
-#~ msgstr "DNS.SB 公共DNS (185.222.222.222)"
-
-#~ msgid "Google Public DNS (8.8.8.8)"
-#~ msgstr "Google 公共DNS (8.8.8.8)"
-
-#~ msgid "Quad9 Public DNS (9.9.9.9)"
-#~ msgstr "Quad9 公共DNS (9.9.9.9)"
-
-#~ msgid "Tencent Public DNS (119.29.29.29)"
-#~ msgstr "腾讯 公共DNS (119.29.29.29)"
-
-#~ msgid "ThreatBook Public DNS (117.50.10.10)"
-#~ msgstr "微步 公共DNS (117.50.10.10)"
-
-#~ msgid "Yandex Public DNS (77.88.8.8)"
-#~ msgstr "Yandex 公共DNS (77.88.8.8)"
-
-#~ msgid ""
-#~ "The URL to test. <code>https://www.gstatic.com/generate_204</code> will "
-#~ "be used if empty."
-#~ msgstr ""
-#~ "用于测试的 URL。如留空，默认为 <code>https://www.gstatic.com/"
-#~ "generate_204</code>。"
-
-#~ msgid ""
-#~ "The idle timeout in seconds. <code>1800</code> will be used if empty."
-#~ msgstr "空闲超时时间（单位：秒）。如留空，默认为 <code>1800</code>。"
-
-#~ msgid ""
-#~ "The test interval in seconds. <code>180</code> will be used if empty."
-#~ msgstr "测试间隔时间（单位：秒）。如留空，默认为 <code>180</code>。"
-
-#~ msgid ""
-#~ "The test tolerance in milliseconds. <code>50</code> will be used if empty."
-#~ msgstr "测试容差时间（单位：毫秒）。如留空，默认为 <code>50</code>。"
-
-#~ msgid ""
-#~ "Update interval of rule set.<br/><code>1d</code> will be used if empty."
-#~ msgstr "规则集更新间隔。<br/>留空使用 <code>1d</code>。"
-
-#~ msgid "It MUST support TCP query."
-#~ msgstr "它必须支持 TCP 查询。"
-
-#~ msgid "The address of the dns server. Support UDP, TCP, DoT, DoH and RCode."
-#~ msgstr "DNS 服务器的地址。支持 UDP、TCP、DoT、DoH 和 RCode。"
-
-#~ msgid ""
-#~ "Timeout of rejected DNS response cache. <code>7d</code> is used by "
-#~ "default."
-#~ msgstr "被拒绝的 DNS 响应缓存超时。默认时长 <code>7d</code>。"
-
-#~ msgid "You can only have two servers set at maximum."
-#~ msgstr "您最多只能设置两个服务器。"
-
-#~ msgid "valid IP address"
-#~ msgstr "有效 IP 地址"
-
-#~ msgid "valid address#port"
-#~ msgstr "有效 地址#端口"
