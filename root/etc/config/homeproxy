@@ -25,7 +25,6 @@ config homeproxy 'config'
 	option proxy_mode 'redirect_tproxy'
 	option ipv6_support '1'
 	option china_dns_server 'https://dns.alidns.com/dns-query'
-	option main_urltest_interval '300'
 
 config homeproxy 'control'
 	option lan_proxy_mode 'disabled'
