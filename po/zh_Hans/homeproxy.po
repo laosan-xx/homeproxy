@@ -12,7 +12,7 @@ msgstr ""
 msgid "%s log"
 msgstr "%s 日志"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1431
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1440
 msgid "%s nodes removed"
 msgstr "移除了 %s 个节点"
 
@@ -24,8 +24,8 @@ msgstr "/etc/homeproxy/certs/..., /etc/acme/..., /etc/ssl/..."
 msgid "4 or 6. Not limited if empty."
 msgstr "4 或 6。留空不限制。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1043
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1074
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1052
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1083
 #: htdocs/luci-static/resources/view/homeproxy/server.js:753
 #: htdocs/luci-static/resources/view/homeproxy/server.js:772
 msgid "<strong>Save your configuration before uploading files!</strong>"
@@ -35,7 +35,7 @@ msgstr "<strong>上传文件前请先保存配置！</strong>"
 msgid "API token"
 msgstr "API 令牌"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:620
+#: htdocs/luci-static/resources/view/homeproxy/node.js:629
 msgid "Accept any if empty."
 msgstr "留空则不校验。"
 
@@ -67,7 +67,7 @@ msgstr "新增 DNS 规则"
 msgid "Add a DNS server"
 msgstr "新增 DNS 服务器"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:363
+#: htdocs/luci-static/resources/view/homeproxy/node.js:372
 msgid "Add a node"
 msgstr "新增节点"
 
@@ -88,7 +88,7 @@ msgid "Add a server"
 msgstr "新增服务器"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:804
-#: htdocs/luci-static/resources/view/homeproxy/node.js:413
+#: htdocs/luci-static/resources/view/homeproxy/node.js:422
 msgid "Address"
 msgstr "地址"
 
@@ -112,20 +112,20 @@ msgstr "阿里 公共DNS (DoH)"
 msgid "All ports"
 msgstr "所有端口"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:995
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1357
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1004
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1366
 msgid "Allow insecure"
 msgstr "允许不安全连接"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:996
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1005
 msgid "Allow insecure connection at TLS client."
 msgstr "允许 TLS 客户端侧的不安全连接。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1358
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1367
 msgid "Allow insecure connection by default when add nodes from subscriptions."
 msgstr "从订阅获取节点时，默认允许不安全连接。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:827
+#: htdocs/luci-static/resources/view/homeproxy/node.js:836
 #: htdocs/luci-static/resources/view/homeproxy/server.js:476
 msgid "Allowed payload size is in the request."
 msgstr "请求中允许的载荷大小。"
@@ -138,7 +138,7 @@ msgstr "已是最新版本。"
 msgid "Already in updating."
 msgstr "已在更新中。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:693
+#: htdocs/luci-static/resources/view/homeproxy/node.js:702
 #: htdocs/luci-static/resources/view/homeproxy/server.js:385
 msgid "Alter ID"
 msgstr "额外 ID"
@@ -151,7 +151,7 @@ msgstr "替代 HTTP 端口"
 msgid "Alternative TLS port"
 msgstr "替代 HTTPS 端口"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1394
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1403
 msgid "An error occurred during updating subscriptions: %s"
 msgstr "更新订阅时发生错误：%s"
 
@@ -170,16 +170,16 @@ msgstr ""
 "将带有指定 IP 前缀的 <code>edns0-subnet</code> OPT 记录附加到每个查询。如果值"
 "是 IP 地址而不是前缀，则会自动添加 <code>/32</code> 或 <code>/128</code>。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1028
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1037
 msgid "Append self-signed certificate"
 msgstr "追加自签名证书"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:374
+#: htdocs/luci-static/resources/view/homeproxy/node.js:383
 msgid "Applied"
 msgstr "已应用"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:367
-#: htdocs/luci-static/resources/view/homeproxy/node.js:377
+#: htdocs/luci-static/resources/view/homeproxy/node.js:376
+#: htdocs/luci-static/resources/view/homeproxy/node.js:386
 msgid "Apply"
 msgstr "应用"
 
@@ -191,16 +191,16 @@ msgstr "确定要允许不安全连接吗？"
 msgid "Auth timeout"
 msgstr "认证超时"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:717
+#: htdocs/luci-static/resources/view/homeproxy/node.js:726
 msgid "Authenticated length"
 msgstr "认证长度"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:512
+#: htdocs/luci-static/resources/view/homeproxy/node.js:521
 #: htdocs/luci-static/resources/view/homeproxy/server.js:254
 msgid "Authentication payload"
 msgstr "认证载荷"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:505
+#: htdocs/luci-static/resources/view/homeproxy/node.js:514
 #: htdocs/luci-static/resources/view/homeproxy/server.js:247
 msgid "Authentication type"
 msgstr "认证类型"
@@ -209,15 +209,15 @@ msgstr "认证类型"
 msgid "Auto configure firewall"
 msgstr "自动配置防火墙"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1307
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1316
 msgid "Auto update"
 msgstr "自动更新"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1308
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1317
 msgid "Auto update subscriptions and geodata."
 msgstr "自动更新订阅和地理数据。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:651
+#: htdocs/luci-static/resources/view/homeproxy/node.js:660
 msgid "BBR"
 msgstr "BBR"
 
@@ -225,7 +225,7 @@ msgstr "BBR"
 msgid "BaiDu"
 msgstr "百度"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:507
+#: htdocs/luci-static/resources/view/homeproxy/node.js:516
 #: htdocs/luci-static/resources/view/homeproxy/server.js:249
 msgid "Base64"
 msgstr "Base64"
@@ -253,7 +253,7 @@ msgstr "绑定出站流量至指定端口。留空自动检测。"
 msgid "BitTorrent"
 msgstr "BitTorrent"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1344
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1353
 msgid "Blacklist mode"
 msgstr "黑名单模式"
 
@@ -292,15 +292,15 @@ msgstr "默认使用防火墙规则绕过中国大陆流量。"
 msgid "CA provider"
 msgstr "CA 颁发机构"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:649
+#: htdocs/luci-static/resources/view/homeproxy/node.js:658
 msgid "CUBIC"
 msgstr "CUBIC"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1211
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1220
 msgid "Cancel"
 msgstr "取消"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1034
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1043
 #: htdocs/luci-static/resources/view/homeproxy/server.js:741
 msgid "Certificate path"
 msgstr "证书路径"
@@ -333,7 +333,7 @@ msgstr "大陆域名列表版本"
 msgid "Chromium / Cronet"
 msgstr "Chromium / Cronet"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1020
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1029
 #: htdocs/luci-static/resources/view/homeproxy/server.js:583
 msgid "Cipher suites"
 msgstr "密码套件"
@@ -354,7 +354,7 @@ msgstr "客户端"
 msgid "Client Settings"
 msgstr "客户端设置"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:614
+#: htdocs/luci-static/resources/view/homeproxy/node.js:623
 msgid "Client version"
 msgstr "客户端版本"
 
@@ -376,7 +376,7 @@ msgstr "收集数据中..."
 msgid "Common ports only (bypass P2P traffic)"
 msgstr "仅常用端口（绕过 P2P 流量）"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:647
+#: htdocs/luci-static/resources/view/homeproxy/node.js:656
 #: htdocs/luci-static/resources/view/homeproxy/server.js:347
 msgid "Congestion control algorithm"
 msgstr "拥塞控制算法"
@@ -385,7 +385,7 @@ msgstr "拥塞控制算法"
 msgid "Connection check"
 msgstr "连接检查"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1312
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1321
 msgid "Cron expression"
 msgstr "定时任务表达式"
 
@@ -439,7 +439,7 @@ msgstr "DTLS"
 #: htdocs/luci-static/resources/view/homeproxy/client.js:567
 #: htdocs/luci-static/resources/view/homeproxy/client.js:937
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1196
-#: htdocs/luci-static/resources/view/homeproxy/node.js:659
+#: htdocs/luci-static/resources/view/homeproxy/node.js:668
 msgid "Default"
 msgstr "默认"
 
@@ -465,7 +465,7 @@ msgstr "默认域名解析策略。"
 msgid "Default outbound"
 msgstr "默认出站"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1365
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1374
 msgid "Default packet encoding"
 msgstr "默认包封装格式"
 
@@ -479,7 +479,7 @@ msgstr "默认服务器名称"
 #: htdocs/luci-static/resources/view/homeproxy/client.js:881
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1078
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1197
-#: htdocs/luci-static/resources/view/homeproxy/node.js:394
+#: htdocs/luci-static/resources/view/homeproxy/node.js:403
 msgid "Direct"
 msgstr "直连"
 
@@ -505,11 +505,11 @@ msgstr "直连 MAC 地址"
 #: htdocs/luci-static/resources/view/homeproxy/client.js:151
 #: htdocs/luci-static/resources/view/homeproxy/client.js:368
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1237
-#: htdocs/luci-static/resources/view/homeproxy/node.js:473
-#: htdocs/luci-static/resources/view/homeproxy/node.js:506
-#: htdocs/luci-static/resources/view/homeproxy/node.js:518
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1085
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1343
+#: htdocs/luci-static/resources/view/homeproxy/node.js:482
+#: htdocs/luci-static/resources/view/homeproxy/node.js:515
+#: htdocs/luci-static/resources/view/homeproxy/node.js:527
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1094
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1352
 #: htdocs/luci-static/resources/view/homeproxy/server.js:248
 #: htdocs/luci-static/resources/view/homeproxy/server.js:260
 msgid "Disable"
@@ -523,7 +523,7 @@ msgstr "禁用 DNS 缓存"
 msgid "Disable HTTP challenge"
 msgstr "禁用 HTTP 验证"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:554
+#: htdocs/luci-static/resources/view/homeproxy/node.js:563
 #: htdocs/luci-static/resources/view/homeproxy/server.js:302
 msgid "Disable Path MTU discovery"
 msgstr "禁用路径 MTU 探测"
@@ -544,11 +544,11 @@ msgstr "缓存永不过期"
 msgid "Disable dns cache"
 msgstr "禁用 DNS 缓存"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1057
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1066
 msgid "Disable dynamic record sizing"
 msgstr "禁用动态记录大小"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:555
+#: htdocs/luci-static/resources/view/homeproxy/node.js:564
 #: htdocs/luci-static/resources/view/homeproxy/server.js:303
 msgid ""
 "Disables Path MTU Discovery (RFC 8899). Packets will then be at most 1252 "
@@ -587,17 +587,17 @@ msgstr "域名后缀"
 msgid "Domains"
 msgstr "域名"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:944
+#: htdocs/luci-static/resources/view/homeproxy/node.js:953
 #: htdocs/luci-static/resources/view/homeproxy/server.js:514
 msgid "Download bandwidth"
 msgstr "下载带宽"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:945
+#: htdocs/luci-static/resources/view/homeproxy/node.js:954
 #: htdocs/luci-static/resources/view/homeproxy/server.js:515
 msgid "Download bandwidth in Mbps."
 msgstr "下载带宽（单位：Mbps）。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1350
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1359
 msgid ""
 "Drop/keep nodes that contain the specific keywords. <a target=\"_blank\" "
 "href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/"
@@ -607,7 +607,7 @@ msgstr ""
 "developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions\">"
 "正则表达式</a>。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1342
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1351
 msgid "Drop/keep specific nodes from subscriptions."
 msgstr "从订阅中 丢弃/保留 指定节点"
 
@@ -622,7 +622,7 @@ msgstr ""
 "<br/>外部帐户绑定“用于将 ACME 帐户与非 ACME 系统中的现有帐户相关联，例如 CA "
 "客户数据库。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1052
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1061
 msgid ""
 "ECH (Encrypted Client Hello) is a TLS extension that allows a client to "
 "encrypt the first part of its ClientHello message."
@@ -630,11 +630,11 @@ msgstr ""
 "ECH（Encrypted Client Hello）是一个 TLS 扩展，它允许客户端加密其 ClientHello "
 "信息的第一部分。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1078
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1087
 msgid "ECH config"
 msgstr "ECH 配置"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1067
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1076
 msgid "ECH config path"
 msgstr "ECH 配置路径"
 
@@ -644,12 +644,12 @@ msgstr "ECH 配置路径"
 msgid "EDNS Client subnet"
 msgstr "ENDS 客户端子网"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:826
+#: htdocs/luci-static/resources/view/homeproxy/node.js:835
 #: htdocs/luci-static/resources/view/homeproxy/server.js:475
 msgid "Early data"
 msgstr "前置数据"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:833
+#: htdocs/luci-static/resources/view/homeproxy/node.js:842
 #: htdocs/luci-static/resources/view/homeproxy/server.js:482
 msgid "Early data header name"
 msgstr "前置数据标头"
@@ -658,7 +658,7 @@ msgstr "前置数据标头"
 msgid "Early data is sent in path instead of header by default."
 msgstr "前置数据默认发送在路径而不是标头中。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1183
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1192
 msgid "Edit nodes"
 msgstr "修改节点"
 
@@ -676,7 +676,7 @@ msgstr "Email"
 msgid "Enable"
 msgstr "启用"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:672
+#: htdocs/luci-static/resources/view/homeproxy/node.js:681
 #: htdocs/luci-static/resources/view/homeproxy/server.js:364
 msgid ""
 "Enable 0-RTT QUIC connection handshake on the client side. This is not "
@@ -686,7 +686,7 @@ msgstr ""
 "在客户端启用 0-RTT QUIC 连接握手。由于协议是完全复用的，这对性能影响不大。"
 "<br/>强烈建议禁用此功能，因为它容易受到重放攻击。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:671
+#: htdocs/luci-static/resources/view/homeproxy/node.js:680
 #: htdocs/luci-static/resources/view/homeproxy/server.js:363
 msgid "Enable 0-RTT handshake"
 msgstr "启用 0-RTT 握手"
@@ -695,25 +695,25 @@ msgstr "启用 0-RTT 握手"
 msgid "Enable ACME"
 msgstr "启用 ACME"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1051
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1060
 msgid "Enable ECH"
 msgstr "启用 ECH"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1062
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1071
 msgid "Enable PQ signature schemes"
 msgstr "启用 PQ 签名方案"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:938
+#: htdocs/luci-static/resources/view/homeproxy/node.js:947
 #: htdocs/luci-static/resources/view/homeproxy/server.js:508
 msgid "Enable TCP Brutal"
 msgstr "启用 TCP Brutal"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:939
+#: htdocs/luci-static/resources/view/homeproxy/node.js:948
 #: htdocs/luci-static/resources/view/homeproxy/server.js:509
 msgid "Enable TCP Brutal congestion control algorithm"
 msgstr "启用 TCP Brutal 拥塞控制算法。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1138
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1147
 #: htdocs/luci-static/resources/view/homeproxy/server.js:793
 msgid "Enable UDP fragmentation."
 msgstr "启用 UDP 分片。"
@@ -722,7 +722,7 @@ msgstr "启用 UDP 分片。"
 msgid "Enable endpoint-independent NAT"
 msgstr "启用端点独立 NAT"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:933
+#: htdocs/luci-static/resources/view/homeproxy/node.js:942
 #: htdocs/luci-static/resources/view/homeproxy/server.js:502
 msgid "Enable padding"
 msgstr "启用填充"
@@ -731,13 +731,13 @@ msgstr "启用填充"
 msgid "Enable tcp fast open for listener."
 msgstr "为监听器启用 TCP 快速打开。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1143
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1152
 msgid ""
 "Enable the SUoT protocol, requires server support. Conflict with multiplex."
 msgstr "启用 SUoT 协议，需要服务端支持。与多路复用冲突。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:562
-#: htdocs/luci-static/resources/view/homeproxy/node.js:699
+#: htdocs/luci-static/resources/view/homeproxy/node.js:571
+#: htdocs/luci-static/resources/view/homeproxy/node.js:708
 #: htdocs/luci-static/resources/view/homeproxy/server.js:321
 msgid "Encrypt method"
 msgstr "加密方式"
@@ -767,11 +767,11 @@ msgstr "加密方式"
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1180
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1323
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1356
-#: htdocs/luci-static/resources/view/homeproxy/node.js:452
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1101
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1274
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1331
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1334
+#: htdocs/luci-static/resources/view/homeproxy/node.js:461
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1110
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1283
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1340
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1343
 #: htdocs/luci-static/resources/view/homeproxy/server.js:213
 #: htdocs/luci-static/resources/view/homeproxy/server.js:616
 #: htdocs/luci-static/resources/view/homeproxy/server.js:618
@@ -794,11 +794,11 @@ msgstr "外部账户密钥标识符"
 msgid "Failed to upload %s, error: %s."
 msgstr "上传 %s 失败，错误：%s。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1349
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1358
 msgid "Filter keywords"
 msgstr "过滤关键词"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1341
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1350
 msgid "Filter nodes"
 msgstr "过滤节点"
 
@@ -806,7 +806,7 @@ msgstr "过滤节点"
 msgid "Firefox / uquic firefox"
 msgstr "Firefox / uquic firefox"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:687
+#: htdocs/luci-static/resources/view/homeproxy/node.js:696
 #: htdocs/luci-static/resources/view/homeproxy/server.js:379
 msgid "Flow"
 msgstr "流控"
@@ -815,7 +815,7 @@ msgstr "流控"
 msgid "Format"
 msgstr "格式"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:795
+#: htdocs/luci-static/resources/view/homeproxy/node.js:804
 msgid "GET"
 msgstr "GET"
 
@@ -849,7 +849,7 @@ msgid "Generate"
 msgstr "生成"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:305
-#: htdocs/luci-static/resources/view/homeproxy/node.js:849
+#: htdocs/luci-static/resources/view/homeproxy/node.js:858
 msgid "Generic segmentation offload"
 msgstr "通用分段卸载（GSO）"
 
@@ -857,7 +857,7 @@ msgstr "通用分段卸载（GSO）"
 msgid "Global"
 msgstr "全局"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:710
+#: htdocs/luci-static/resources/view/homeproxy/node.js:719
 msgid "Global padding"
 msgstr "全局填充"
 
@@ -891,8 +891,8 @@ msgstr "授予 homeproxy 访问 UCI 配置的权限"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:584
 #: htdocs/luci-static/resources/view/homeproxy/client.js:961
-#: htdocs/luci-static/resources/view/homeproxy/node.js:395
-#: htdocs/luci-static/resources/view/homeproxy/node.js:729
+#: htdocs/luci-static/resources/view/homeproxy/node.js:404
+#: htdocs/luci-static/resources/view/homeproxy/node.js:738
 #: htdocs/luci-static/resources/view/homeproxy/server.js:145
 #: htdocs/luci-static/resources/view/homeproxy/server.js:397
 msgid "HTTP"
@@ -904,7 +904,7 @@ msgid ""
 "returned if empty."
 msgstr "身份验证失败时的 HTTP3 服务器响应。默认返回 404 页面。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:730
+#: htdocs/luci-static/resources/view/homeproxy/node.js:739
 #: htdocs/luci-static/resources/view/homeproxy/server.js:398
 msgid "HTTPUpgrade"
 msgstr "HTTPUpgrade"
@@ -917,7 +917,7 @@ msgstr "握手服务器地址"
 msgid "Handshake server port"
 msgstr "握手服务器端口"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:678
+#: htdocs/luci-static/resources/view/homeproxy/node.js:687
 #: htdocs/luci-static/resources/view/homeproxy/server.js:370
 msgid "Heartbeat interval"
 msgstr "心跳间隔"
@@ -936,17 +936,17 @@ msgstr "HomeProxy"
 msgid "HomeProxy Server"
 msgstr "HomeProxy 服务端"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:486
+#: htdocs/luci-static/resources/view/homeproxy/node.js:495
 msgid "Hop interval"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:480
+#: htdocs/luci-static/resources/view/homeproxy/node.js:489
 msgid "Hopping port"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:779
-#: htdocs/luci-static/resources/view/homeproxy/node.js:784
-#: htdocs/luci-static/resources/view/homeproxy/node.js:818
+#: htdocs/luci-static/resources/view/homeproxy/node.js:788
+#: htdocs/luci-static/resources/view/homeproxy/node.js:793
+#: htdocs/luci-static/resources/view/homeproxy/node.js:827
 #: htdocs/luci-static/resources/view/homeproxy/server.js:431
 #: htdocs/luci-static/resources/view/homeproxy/server.js:436
 #: htdocs/luci-static/resources/view/homeproxy/server.js:467
@@ -958,11 +958,11 @@ msgstr "主机名"
 msgid "Host fields"
 msgstr "主机字段"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:619
+#: htdocs/luci-static/resources/view/homeproxy/node.js:628
 msgid "Host key"
 msgstr "主机密钥"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:624
+#: htdocs/luci-static/resources/view/homeproxy/node.js:633
 msgid "Host key algorithms"
 msgstr "主机密钥算法"
 
@@ -972,12 +972,12 @@ msgid ""
 "command (in seconds)."
 msgstr "服务器等待客户端发送认证命令的时间（单位：秒）。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:397
+#: htdocs/luci-static/resources/view/homeproxy/node.js:406
 #: htdocs/luci-static/resources/view/homeproxy/server.js:147
 msgid "Hysteria"
 msgstr "Hysteria"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:398
+#: htdocs/luci-static/resources/view/homeproxy/node.js:407
 #: htdocs/luci-static/resources/view/homeproxy/server.js:148
 msgid "Hysteria2"
 msgstr "Hysteria2"
@@ -1015,12 +1015,12 @@ msgid "IPv6 support"
 msgstr "IPv6 支持"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:515
-#: htdocs/luci-static/resources/view/homeproxy/node.js:800
+#: htdocs/luci-static/resources/view/homeproxy/node.js:809
 #: htdocs/luci-static/resources/view/homeproxy/server.js:450
 msgid "Idle timeout"
 msgstr "空闲超时"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:771
+#: htdocs/luci-static/resources/view/homeproxy/node.js:780
 msgid ""
 "If enabled, the client transport sends keepalive pings even with no active "
 "connections."
@@ -1037,7 +1037,7 @@ msgid ""
 "If set, the server domain name will be resolved to IP before connecting.<br/>"
 msgstr "如果设置，服务器域名将在连接前被解析为 IP。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:756
+#: htdocs/luci-static/resources/view/homeproxy/node.js:765
 #: htdocs/luci-static/resources/view/homeproxy/server.js:419
 msgid ""
 "If the transport doesn't see any activity after a duration of this time (in "
@@ -1046,7 +1046,7 @@ msgstr ""
 "如果传输在此时间段（单位：秒）后没有看到任何活动，它会向客户端发送 ping 请求"
 "以检查连接是否仍然活动。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1029
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1038
 msgid ""
 "If you have the root certificate, use this option instead of allowing "
 "insecure."
@@ -1056,13 +1056,13 @@ msgstr "如果你拥有根证书，使用此选项而不是允许不安全连接
 msgid "Ignore client bandwidth"
 msgstr "忽略客户端带宽"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1257
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1266
 msgid "Import"
 msgstr "导入"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1204
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1283
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1285
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1213
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1292
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1294
 msgid "Import share links"
 msgstr "导入分享链接"
 
@@ -1090,7 +1090,7 @@ msgstr "中断现有连接"
 msgid "Interrupt existing connections when the selected outbound has changed."
 msgstr "当选择的出站发生变化时中断现有连接。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:679
+#: htdocs/luci-static/resources/view/homeproxy/node.js:688
 #: htdocs/luci-static/resources/view/homeproxy/server.js:371
 msgid ""
 "Interval for sending heartbeat packets for keeping the connection alive (in "
@@ -1120,12 +1120,12 @@ msgstr "LAN IP 策略"
 #: htdocs/luci-static/resources/view/homeproxy/client.js:794
 #: htdocs/luci-static/resources/view/homeproxy/client.js:919
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1139
-#: htdocs/luci-static/resources/view/homeproxy/node.js:388
+#: htdocs/luci-static/resources/view/homeproxy/node.js:397
 #: htdocs/luci-static/resources/view/homeproxy/server.js:133
 msgid "Label"
 msgstr "标签"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:694
+#: htdocs/luci-static/resources/view/homeproxy/node.js:703
 #: htdocs/luci-static/resources/view/homeproxy/server.js:386
 msgid ""
 "Legacy protocol support (VMess MD5 Authentication) is provided for "
@@ -1142,7 +1142,7 @@ msgstr "有时性能更好。"
 msgid "Let's Encrypt"
 msgstr "Let's Encrypt"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:856
+#: htdocs/luci-static/resources/view/homeproxy/node.js:865
 msgid ""
 "List of IP (v4 or v6) addresses prefixes to be assigned to the interface."
 msgstr "分配给接口的 IP（v4 或 v6）地址前缀列表。"
@@ -1153,7 +1153,7 @@ msgstr "分配给接口的 IP（v4 或 v6）地址前缀列表。"
 msgid "List of nodes to test."
 msgstr "要测试的节点列表。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:991
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1000
 #: htdocs/luci-static/resources/view/homeproxy/server.js:563
 msgid "List of supported application level protocols, in order of preference."
 msgstr "支持的应用层协议协商列表，按顺序排列。"
@@ -1178,7 +1178,7 @@ msgstr "加载中"
 msgid "Local"
 msgstr "本地"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:855
+#: htdocs/luci-static/resources/view/homeproxy/node.js:864
 msgid "Local address"
 msgstr "本地地址"
 
@@ -1190,7 +1190,7 @@ msgstr "日志文件不存在。"
 msgid "Log is empty."
 msgstr "日志为空。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:889
+#: htdocs/luci-static/resources/view/homeproxy/node.js:898
 msgid "MTU"
 msgstr "MTU"
 
@@ -1304,10 +1304,6 @@ msgstr "匹配规则集。"
 msgid "Match source IP CIDR."
 msgstr "匹配源 IP CIDR。"
 
-#: htdocs/luci-static/resources/view/homeproxy/client.js:694
-msgid "Match source IP via rule set"
-msgstr "通过规则集匹配源 IP"
-
 #: htdocs/luci-static/resources/view/homeproxy/client.js:649
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1021
 msgid "Match source port range. Format as START:/:END/START:END."
@@ -1327,12 +1323,12 @@ msgstr "匹配出站的服务器名称。"
 msgid "Match user name."
 msgstr "匹配用户名。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:528
+#: htdocs/luci-static/resources/view/homeproxy/node.js:537
 #: htdocs/luci-static/resources/view/homeproxy/server.js:233
 msgid "Max download speed"
 msgstr "最大下载速度"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:529
+#: htdocs/luci-static/resources/view/homeproxy/node.js:538
 #: htdocs/luci-static/resources/view/homeproxy/server.js:234
 msgid "Max download speed in Mbps."
 msgstr "最大下载速度（Mbps）。"
@@ -1341,26 +1337,26 @@ msgstr "最大下载速度（Mbps）。"
 msgid "Max time difference"
 msgstr "最大时间差"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:535
+#: htdocs/luci-static/resources/view/homeproxy/node.js:544
 #: htdocs/luci-static/resources/view/homeproxy/server.js:240
 msgid "Max upload speed"
 msgstr "最大上传速度"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:536
+#: htdocs/luci-static/resources/view/homeproxy/node.js:545
 #: htdocs/luci-static/resources/view/homeproxy/server.js:241
 msgid "Max upload speed in Mbps."
 msgstr "最大上传速度（Mbps）。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1012
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1021
 #: htdocs/luci-static/resources/view/homeproxy/server.js:575
 msgid "Maximum TLS version"
 msgstr "最大 TLS 版本"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:915
+#: htdocs/luci-static/resources/view/homeproxy/node.js:924
 msgid "Maximum connections"
 msgstr "最大连接数"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:927
+#: htdocs/luci-static/resources/view/homeproxy/node.js:936
 msgid ""
 "Maximum multiplexed streams in a connection before opening a new connection."
 "<br/>Conflict with <code>Maximum connections</code> and <code>Minimum "
@@ -1369,30 +1365,30 @@ msgstr ""
 "在打开新连接之前，连接中的最大多路复用流数量。与 <code>Maximum connections</"
 "code> 和 <code>Minimum streams</code> 冲突。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:926
+#: htdocs/luci-static/resources/view/homeproxy/node.js:935
 msgid "Maximum streams"
 msgstr "最大流数量"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:794
+#: htdocs/luci-static/resources/view/homeproxy/node.js:803
 #: htdocs/luci-static/resources/view/homeproxy/server.js:446
 msgid "Method"
 msgstr "方式"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1004
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1013
 #: htdocs/luci-static/resources/view/homeproxy/server.js:567
 msgid "Minimum TLS version"
 msgstr "最低 TLS 版本"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:921
+#: htdocs/luci-static/resources/view/homeproxy/node.js:930
 msgid ""
 "Minimum multiplexed streams in a connection before opening a new connection."
 msgstr "在打开新连接之前，连接中的最小多路复用流数量。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:920
+#: htdocs/luci-static/resources/view/homeproxy/node.js:929
 msgid "Minimum streams"
 msgstr "最小流数量"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1313
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1322
 msgid "Minutes(0-59) Hours(0-23) Dates(1-31) Months(1-12) Weeks(0-6)"
 msgstr "分(0-59) 时(0-23) 日(1-31) 月(1-12) 周(0-6)"
 
@@ -1410,17 +1406,17 @@ msgstr "混合<code>系统</code> TCP 栈和 <code>gVisor</code> UDP 栈。"
 msgid "Mode"
 msgstr "模式"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1133
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1142
 #: htdocs/luci-static/resources/view/homeproxy/server.js:787
 msgid "MultiPath TCP"
 msgstr "多路径 TCP（MPTCP）"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:897
+#: htdocs/luci-static/resources/view/homeproxy/node.js:906
 #: htdocs/luci-static/resources/view/homeproxy/server.js:494
 msgid "Multiplex"
 msgstr "多路复用"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:906
+#: htdocs/luci-static/resources/view/homeproxy/node.js:915
 msgid "Multiplex protocol."
 msgstr "多路复用协议。"
 
@@ -1429,11 +1425,11 @@ msgstr "多路复用协议。"
 msgid "NOT RUNNING"
 msgstr "未运行"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1371
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1380
 msgid "NOTE: Save current settings before updating subscriptions."
 msgstr "注意：更新订阅前先保存当前配置。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:660
+#: htdocs/luci-static/resources/view/homeproxy/node.js:669
 msgid "Native"
 msgstr "原生"
 
@@ -1447,36 +1443,36 @@ msgstr "NaïveProxy"
 msgid "Network"
 msgstr "网络"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:650
+#: htdocs/luci-static/resources/view/homeproxy/node.js:659
 msgid "New Reno"
 msgstr "New Reno"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:726
-#: htdocs/luci-static/resources/view/homeproxy/node.js:743
+#: htdocs/luci-static/resources/view/homeproxy/node.js:735
+#: htdocs/luci-static/resources/view/homeproxy/node.js:752
 #: htdocs/luci-static/resources/view/homeproxy/server.js:394
 #: htdocs/luci-static/resources/view/homeproxy/server.js:411
 msgid "No TCP transport, plain HTTP is merged into the HTTP transport."
 msgstr "无 TCP 传输层, 纯 HTTP 已合并到 HTTP 传输层。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:741
+#: htdocs/luci-static/resources/view/homeproxy/node.js:750
 #: htdocs/luci-static/resources/view/homeproxy/server.js:409
 msgid "No additional encryption support: It's basically duplicate encryption."
 msgstr "无额外加密支持：它基本上是重复加密。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1387
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1396
 msgid "No subscription available"
 msgstr "无可用订阅"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1412
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1421
 msgid "No subscription node"
 msgstr "无订阅节点"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1243
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1252
 msgid "No valid share link found."
 msgstr "找不到有效分享链接。"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:406
-#: htdocs/luci-static/resources/view/homeproxy/node.js:363
+#: htdocs/luci-static/resources/view/homeproxy/node.js:372
 msgid "Node"
 msgstr "节点"
 
@@ -1484,24 +1480,24 @@ msgstr "节点"
 msgid "Node Settings"
 msgstr "节点设置"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1189
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1198
 msgid "Nodes"
 msgstr "节点"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:837
-#: htdocs/luci-static/resources/view/homeproxy/node.js:688
-#: htdocs/luci-static/resources/view/homeproxy/node.js:727
+#: htdocs/luci-static/resources/view/homeproxy/node.js:697
+#: htdocs/luci-static/resources/view/homeproxy/node.js:736
 #: htdocs/luci-static/resources/view/homeproxy/server.js:380
 #: htdocs/luci-static/resources/view/homeproxy/server.js:395
 msgid "None"
 msgstr "无"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:523
+#: htdocs/luci-static/resources/view/homeproxy/node.js:532
 #: htdocs/luci-static/resources/view/homeproxy/server.js:265
 msgid "Obfuscate password"
 msgstr "混淆密码"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:517
+#: htdocs/luci-static/resources/view/homeproxy/node.js:526
 #: htdocs/luci-static/resources/view/homeproxy/server.js:259
 msgid "Obfuscate type"
 msgstr "混淆类型"
@@ -1531,7 +1527,7 @@ msgstr "出站"
 msgid "Outbound node"
 msgstr "出站节点"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:461
+#: htdocs/luci-static/resources/view/homeproxy/node.js:470
 msgid "Override address"
 msgstr "覆盖地址"
 
@@ -1540,7 +1536,7 @@ msgstr "覆盖地址"
 msgid "Override destination"
 msgstr "覆盖目标地址"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:466
+#: htdocs/luci-static/resources/view/homeproxy/node.js:475
 msgid "Override port"
 msgstr "覆盖端口"
 
@@ -1549,36 +1545,36 @@ msgstr "覆盖端口"
 msgid "Override the connection destination address with the sniffed domain."
 msgstr "使用嗅探到的域名覆盖连接目标。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:462
+#: htdocs/luci-static/resources/view/homeproxy/node.js:471
 msgid "Override the connection destination address."
 msgstr "覆盖目标连接地址。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:467
+#: htdocs/luci-static/resources/view/homeproxy/node.js:476
 msgid "Override the connection destination port."
 msgstr "覆盖目标连接端口。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:796
+#: htdocs/luci-static/resources/view/homeproxy/node.js:805
 msgid "PUT"
 msgstr "PUT"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:839
+#: htdocs/luci-static/resources/view/homeproxy/node.js:848
 msgid "Packet encoding"
 msgstr "数据包编码"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:429
+#: htdocs/luci-static/resources/view/homeproxy/node.js:438
 #: htdocs/luci-static/resources/view/homeproxy/server.js:178
 msgid "Password"
 msgstr "密码"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1161
-#: htdocs/luci-static/resources/view/homeproxy/node.js:789
-#: htdocs/luci-static/resources/view/homeproxy/node.js:822
+#: htdocs/luci-static/resources/view/homeproxy/node.js:798
+#: htdocs/luci-static/resources/view/homeproxy/node.js:831
 #: htdocs/luci-static/resources/view/homeproxy/server.js:441
 #: htdocs/luci-static/resources/view/homeproxy/server.js:471
 msgid "Path"
 msgstr "路径"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:870
+#: htdocs/luci-static/resources/view/homeproxy/node.js:879
 msgid "Peer pubkic key"
 msgstr "对端公钥"
 
@@ -1588,22 +1584,22 @@ msgid ""
 "it is not needed."
 msgstr "性能可能会略有下降，建议仅在需要时开启。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:808
+#: htdocs/luci-static/resources/view/homeproxy/node.js:817
 #: htdocs/luci-static/resources/view/homeproxy/server.js:458
 msgid "Ping timeout"
 msgstr "Ping 超时"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:580
+#: htdocs/luci-static/resources/view/homeproxy/node.js:589
 msgid "Plugin"
 msgstr "插件"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:587
+#: htdocs/luci-static/resources/view/homeproxy/node.js:596
 msgid "Plugin opts"
 msgstr "插件参数"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:653
 #: htdocs/luci-static/resources/view/homeproxy/client.js:985
-#: htdocs/luci-static/resources/view/homeproxy/node.js:418
+#: htdocs/luci-static/resources/view/homeproxy/node.js:427
 msgid "Port"
 msgstr "端口"
 
@@ -1616,7 +1612,7 @@ msgstr "端口 %s 已存在！"
 msgid "Port fields"
 msgstr "端口字段"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:487
+#: htdocs/luci-static/resources/view/homeproxy/node.js:496
 msgid "Port hopping interval in seconds."
 msgstr ""
 
@@ -1625,7 +1621,7 @@ msgstr ""
 msgid "Port range"
 msgstr "端口范围"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:877
+#: htdocs/luci-static/resources/view/homeproxy/node.js:886
 msgid "Pre-shared key"
 msgstr "预共享密钥"
 
@@ -1642,12 +1638,12 @@ msgstr "优先 IPv6"
 msgid "Private IP"
 msgstr "私有 IP"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:628
-#: htdocs/luci-static/resources/view/homeproxy/node.js:862
+#: htdocs/luci-static/resources/view/homeproxy/node.js:637
+#: htdocs/luci-static/resources/view/homeproxy/node.js:871
 msgid "Private key"
 msgstr "私钥"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:633
+#: htdocs/luci-static/resources/view/homeproxy/node.js:642
 msgid "Private key passphrase"
 msgstr "私钥指纹"
 
@@ -1673,17 +1669,17 @@ msgstr "进程路径（正则表达式）"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:579
 #: htdocs/luci-static/resources/view/homeproxy/client.js:957
-#: htdocs/luci-static/resources/view/homeproxy/node.js:494
-#: htdocs/luci-static/resources/view/homeproxy/node.js:905
+#: htdocs/luci-static/resources/view/homeproxy/node.js:503
+#: htdocs/luci-static/resources/view/homeproxy/node.js:914
 #: htdocs/luci-static/resources/view/homeproxy/server.js:222
 msgid "Protocol"
 msgstr "协议"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:718
+#: htdocs/luci-static/resources/view/homeproxy/node.js:727
 msgid "Protocol parameter. Enable length block encryption."
 msgstr "协议参数。启用长度块加密。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:711
+#: htdocs/luci-static/resources/view/homeproxy/node.js:720
 msgid ""
 "Protocol parameter. Will waste traffic randomly if enabled (enabled by "
 "default in v2ray and cannot be disabled)."
@@ -1723,24 +1719,24 @@ msgstr "仅允许列表内"
 msgid "Proxy mode"
 msgstr "代理模式"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:471
+#: htdocs/luci-static/resources/view/homeproxy/node.js:480
 msgid "Proxy protocol"
 msgstr "代理协议"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:585
 #: htdocs/luci-static/resources/view/homeproxy/client.js:962
-#: htdocs/luci-static/resources/view/homeproxy/node.js:661
-#: htdocs/luci-static/resources/view/homeproxy/node.js:731
+#: htdocs/luci-static/resources/view/homeproxy/node.js:670
+#: htdocs/luci-static/resources/view/homeproxy/node.js:740
 #: htdocs/luci-static/resources/view/homeproxy/server.js:399
 msgid "QUIC"
 msgstr "QUIC"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:648
+#: htdocs/luci-static/resources/view/homeproxy/node.js:657
 #: htdocs/luci-static/resources/view/homeproxy/server.js:348
 msgid "QUIC congestion control algorithm."
 msgstr "QUIC 拥塞控制算法。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:548
+#: htdocs/luci-static/resources/view/homeproxy/node.js:557
 #: htdocs/luci-static/resources/view/homeproxy/server.js:288
 msgid "QUIC connection receive window"
 msgstr "QUIC 连接窗口"
@@ -1749,7 +1745,7 @@ msgstr "QUIC 连接窗口"
 msgid "QUIC maximum concurrent bidirectional streams"
 msgstr "QUIC 最大双向并发流"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:542
+#: htdocs/luci-static/resources/view/homeproxy/node.js:551
 #: htdocs/luci-static/resources/view/homeproxy/server.js:281
 msgid "QUIC stream receive window"
 msgstr "QUIC 流接收窗口"
@@ -1771,7 +1767,7 @@ msgstr "RDP"
 msgid "RDRC timeout"
 msgstr "RDRC 超时"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1112
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1121
 #: htdocs/luci-static/resources/view/homeproxy/server.js:707
 msgid "REALITY"
 msgstr "REALITY"
@@ -1780,11 +1776,11 @@ msgstr "REALITY"
 msgid "REALITY private key"
 msgstr "REALITY 私钥"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1117
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1126
 msgid "REALITY public key"
 msgstr "REALITY 公钥"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1122
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1131
 #: htdocs/luci-static/resources/view/homeproxy/server.js:718
 msgid "REALITY short ID"
 msgstr "REALITY 标识符"
@@ -1794,7 +1790,7 @@ msgstr "REALITY 标识符"
 msgid "RUNNING"
 msgstr "运行中"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:615
+#: htdocs/luci-static/resources/view/homeproxy/node.js:624
 msgid "Random version will be used if empty."
 msgstr "如留空，则使用随机版本。"
 
@@ -1830,15 +1826,15 @@ msgstr "区域 ID"
 msgid "Remote"
 msgstr "远程"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1409
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1418
 msgid "Remove %s nodes"
 msgstr "移除 %s 个节点"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1399
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1408
 msgid "Remove all nodes from subscriptions"
 msgstr "移除所有订阅节点"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:884
+#: htdocs/luci-static/resources/view/homeproxy/node.js:893
 msgid "Reserved field bytes"
 msgstr "保留字段字节"
 
@@ -1896,6 +1892,7 @@ msgstr "规则集"
 msgid "Rule set"
 msgstr "规则集"
 
+#: htdocs/luci-static/resources/view/homeproxy/client.js:694
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1056
 msgid "Rule set IP CIDR as source IP"
 msgstr "规则集 IP CIDR 作为源 IP"
@@ -1916,7 +1913,7 @@ msgstr "源端口字段"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:587
 #: htdocs/luci-static/resources/view/homeproxy/client.js:964
-#: htdocs/luci-static/resources/view/homeproxy/node.js:403
+#: htdocs/luci-static/resources/view/homeproxy/node.js:412
 msgid "SSH"
 msgstr "SSH"
 
@@ -1925,7 +1922,7 @@ msgstr "SSH"
 msgid "STUN"
 msgstr "STUN"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1149
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1158
 msgid "SUoT version"
 msgstr "SUoT 版本"
 
@@ -1933,7 +1930,7 @@ msgstr "SUoT 版本"
 msgid "Safari / Apple Network API"
 msgstr "Safari / Apple Network API"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:519
+#: htdocs/luci-static/resources/view/homeproxy/node.js:528
 #: htdocs/luci-static/resources/view/homeproxy/server.js:261
 msgid "Salamander"
 msgstr "Salamander"
@@ -1942,11 +1939,11 @@ msgstr "Salamander"
 msgid "Same as main node"
 msgstr "保持与主节点一致"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1373
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1382
 msgid "Save current settings"
 msgstr "保存当前设置"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1370
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1379
 msgid "Save subscriptions settings"
 msgstr "保存订阅设置"
 
@@ -1973,15 +1970,15 @@ msgstr "服务器设置"
 msgid "Service Status"
 msgstr "服务状态"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:401
+#: htdocs/luci-static/resources/view/homeproxy/node.js:410
 msgid "ShadowTLS"
 msgstr "ShadowTLS"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:594
+#: htdocs/luci-static/resources/view/homeproxy/node.js:603
 msgid "ShadowTLS version"
 msgstr "ShadowTLS 版本"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:400
+#: htdocs/luci-static/resources/view/homeproxy/node.js:409
 #: htdocs/luci-static/resources/view/homeproxy/server.js:152
 msgid "Shadowsocks"
 msgstr "Shadowsocks"
@@ -1999,24 +1996,24 @@ msgstr ""
 "嗅探协议，具体参见 <a target=\"_blank\" href=\"https://sing-box.sagernet.org/"
 "configuration/route/sniff/\">Sniff</a>。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:402
+#: htdocs/luci-static/resources/view/homeproxy/node.js:411
 #: htdocs/luci-static/resources/view/homeproxy/server.js:153
 msgid "Socks"
 msgstr "Socks"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:604
+#: htdocs/luci-static/resources/view/homeproxy/node.js:613
 msgid "Socks version"
 msgstr "Socks 版本"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:605
+#: htdocs/luci-static/resources/view/homeproxy/node.js:614
 msgid "Socks4"
 msgstr "Socks4"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:606
+#: htdocs/luci-static/resources/view/homeproxy/node.js:615
 msgid "Socks4A"
 msgstr "Socks4A"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:607
+#: htdocs/luci-static/resources/view/homeproxy/node.js:616
 msgid "Socks5"
 msgstr "Socks5"
 
@@ -2039,8 +2036,8 @@ msgstr "源端口"
 msgid "Source port range"
 msgstr "源端口范围"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:748
-#: htdocs/luci-static/resources/view/homeproxy/node.js:801
+#: htdocs/luci-static/resources/view/homeproxy/node.js:757
+#: htdocs/luci-static/resources/view/homeproxy/node.js:810
 msgid ""
 "Specifies the period of time (in seconds) after which a health check will be "
 "performed using a ping frame if no frames have been received on the "
@@ -2061,8 +2058,8 @@ msgstr ""
 "指定闲置客户端应在多长时间（单位：秒）内使用 GOAWAY 帧关闭。PING 帧不被视为活"
 "动。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:752
-#: htdocs/luci-static/resources/view/homeproxy/node.js:809
+#: htdocs/luci-static/resources/view/homeproxy/node.js:761
+#: htdocs/luci-static/resources/view/homeproxy/node.js:818
 msgid ""
 "Specifies the timeout duration (in seconds) after sending a PING frame, "
 "within which a response must be received.<br/>If a response to the PING "
@@ -2090,24 +2087,24 @@ msgstr ""
 "存储被拒绝的 DNS 响应缓存。<br/><code>地址过滤 DNS 规则</code> 的检查结果将被"
 "缓存直到过期。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:508
+#: htdocs/luci-static/resources/view/homeproxy/node.js:517
 #: htdocs/luci-static/resources/view/homeproxy/server.js:250
 msgid "String"
 msgstr "字符串"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1294
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1303
 msgid "Sub (%s)"
 msgstr "订阅（%s）"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1324
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1333
 msgid "Subscription URL-s"
 msgstr "订阅地址"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1305
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1314
 msgid "Subscriptions"
 msgstr "订阅"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1245
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1254
 msgid "Successfully imported %s nodes of total %s."
 msgstr "成功导入 %s 个节点，共 %s 个。"
 
@@ -2115,8 +2112,8 @@ msgstr "成功导入 %s 个节点，共 %s 个。"
 msgid "Successfully updated."
 msgstr "更新成功。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1205
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1325
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1214
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1334
 msgid ""
 "Support Hysteria, Shadowsocks, Trojan, v2rayN (VMess), and XTLS (VLESS) "
 "online configuration delivery standard."
@@ -2145,7 +2142,7 @@ msgstr "系统 DNS"
 msgid "TCP"
 msgstr "TCP"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1129
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1138
 #: htdocs/luci-static/resources/view/homeproxy/server.js:781
 msgid "TCP fast open"
 msgstr "TCP 快速打开"
@@ -2160,22 +2157,22 @@ msgstr "TCP/IP 协议栈。"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:589
 #: htdocs/luci-static/resources/view/homeproxy/client.js:966
-#: htdocs/luci-static/resources/view/homeproxy/node.js:958
+#: htdocs/luci-static/resources/view/homeproxy/node.js:967
 #: htdocs/luci-static/resources/view/homeproxy/server.js:529
 msgid "TLS"
 msgstr "TLS"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:990
+#: htdocs/luci-static/resources/view/homeproxy/node.js:999
 #: htdocs/luci-static/resources/view/homeproxy/server.js:562
 msgid "TLS ALPN"
 msgstr "TLS ALPN"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:985
+#: htdocs/luci-static/resources/view/homeproxy/node.js:994
 #: htdocs/luci-static/resources/view/homeproxy/server.js:557
 msgid "TLS SNI"
 msgstr "TLS SNI"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:739
+#: htdocs/luci-static/resources/view/homeproxy/node.js:748
 #: htdocs/luci-static/resources/view/homeproxy/server.js:407
 msgid "TLS is not enforced. If TLS is not configured, plain HTTP 1.1 is used."
 msgstr "不强制执行 TLS。如未配置 TLS，将使用纯 HTTP 1.1。"
@@ -2241,12 +2238,12 @@ msgstr "使用的 ACME CA 颁发机构。"
 msgid "The DNS strategy for resolving the domain name in the address."
 msgstr "解析域名的默认策略。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:549
+#: htdocs/luci-static/resources/view/homeproxy/node.js:558
 #: htdocs/luci-static/resources/view/homeproxy/server.js:289
 msgid "The QUIC connection-level flow control window for receiving data."
 msgstr "用于接收数据的 QUIC 连接级流控制窗口。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:543
+#: htdocs/luci-static/resources/view/homeproxy/node.js:552
 #: htdocs/luci-static/resources/view/homeproxy/server.js:282
 msgid "The QUIC stream-level flow control window for receiving data."
 msgstr "用于接收数据的 QUIC 流级流控制窗口。"
@@ -2316,7 +2313,7 @@ msgstr "用于解析国内域名的 DNS 服务器。支持 UDP、TCP、DoH、DoQ
 msgid "The domain strategy for resolving the domain name in the address."
 msgstr "用于解析本 DNS 服务器的域名的策略。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1021
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1030
 #: htdocs/luci-static/resources/view/homeproxy/server.js:584
 msgid ""
 "The elliptic curves that will be used in an ECDHE handshake, in preference "
@@ -2333,7 +2330,7 @@ msgstr "创建或选择现有 ACME 服务器帐户时使用的电子邮件地址
 msgid "The idle timeout in seconds."
 msgstr "空闲超时时间（单位：秒）。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1013
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1022
 #: htdocs/luci-static/resources/view/homeproxy/server.js:576
 msgid "The maximum TLS version that is acceptable."
 msgstr "可接受的最高 TLS 版本。"
@@ -2348,7 +2345,7 @@ msgstr "允许对等点打开的 QUIC 并发双向流的最大数量。"
 msgid "The maximum time difference between the server and the client."
 msgstr "服务器和客户端之间的最大时间差。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1005
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1014
 #: htdocs/luci-static/resources/view/homeproxy/server.js:568
 msgid "The minimum TLS version that is acceptable."
 msgstr "可接受的最低 TLS 版本。"
@@ -2362,13 +2359,13 @@ msgstr "为 ARM64/AMD64 设计的现代 ImmortalWrt 代理平台。"
 msgid "The network interface to bind to."
 msgstr "绑定到的网络接口。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1068
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1077
 msgid ""
 "The path to the ECH config, in PEM format. If empty, load from DNS will be "
 "attempted."
 msgstr "PEM 格式的 ECH 配置路径。如果为空，将尝试从 DNS 加载。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1035
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1044
 msgid "The path to the server certificate, in PEM format."
 msgstr "服务端证书路径，需要 PEM 格式。"
 
@@ -2402,7 +2399,7 @@ msgstr "测试间隔时间（单位：秒）。"
 msgid "The test tolerance in milliseconds."
 msgstr "测试容差时间（单位：毫秒）。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:759
+#: htdocs/luci-static/resources/view/homeproxy/node.js:768
 #: htdocs/luci-static/resources/view/homeproxy/server.js:459
 msgid ""
 "The timeout (in seconds) that after performing a keepalive check, the client "
@@ -2412,15 +2409,15 @@ msgstr ""
 "经过一段时间（单位：秒）之后，客户端将执行 keepalive 检查并等待活动。如果没有"
 "检测到任何活动，则会关闭连接。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:998
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1360
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1007
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1369
 msgid ""
 "This is <strong>DANGEROUS</strong>, your traffic is almost like "
 "<strong>PLAIN TEXT</strong>! Use at your own risk!"
 msgstr ""
 "这是危险行为，您的流量将几乎等同于<strong>明文</strong>！使用风险自负！"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:666
+#: htdocs/luci-static/resources/view/homeproxy/node.js:675
 msgid ""
 "This is the TUIC port of the UDP over TCP protocol, designed to provide a "
 "QUIC stream based UDP relay mode that TUIC does not provide."
@@ -2454,17 +2451,17 @@ msgid ""
 msgstr ""
 "要启用 Tun 支持，您需要安装 <code>ip-full</code> 和 <code>kmod-tun</code>。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:725
+#: htdocs/luci-static/resources/view/homeproxy/node.js:734
 #: htdocs/luci-static/resources/view/homeproxy/server.js:393
 msgid "Transport"
 msgstr "传输层"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:404
+#: htdocs/luci-static/resources/view/homeproxy/node.js:413
 #: htdocs/luci-static/resources/view/homeproxy/server.js:154
 msgid "Trojan"
 msgstr "Trojan"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:406
+#: htdocs/luci-static/resources/view/homeproxy/node.js:415
 #: htdocs/luci-static/resources/view/homeproxy/server.js:156
 msgid "Tuic"
 msgstr "Tuic"
@@ -2474,7 +2471,7 @@ msgid "Tun TCP/UDP"
 msgstr "Tun TCP/UDP"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1149
-#: htdocs/luci-static/resources/view/homeproxy/node.js:393
+#: htdocs/luci-static/resources/view/homeproxy/node.js:402
 #: htdocs/luci-static/resources/view/homeproxy/server.js:144
 msgid "Type"
 msgstr "类型"
@@ -2485,7 +2482,7 @@ msgstr "类型"
 msgid "UDP"
 msgstr "UDP"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1137
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1146
 #: htdocs/luci-static/resources/view/homeproxy/server.js:792
 msgid "UDP Fragment"
 msgstr "UDP 分片"
@@ -2495,19 +2492,19 @@ msgstr "UDP 分片"
 msgid "UDP NAT expiration time"
 msgstr "UDP NAT 过期时间"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1142
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1151
 msgid "UDP over TCP"
 msgstr "UDP over TCP"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:665
+#: htdocs/luci-static/resources/view/homeproxy/node.js:674
 msgid "UDP over stream"
 msgstr "UDP over stream"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:658
+#: htdocs/luci-static/resources/view/homeproxy/node.js:667
 msgid "UDP packet relay mode."
 msgstr "UDP 包中继模式。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:657
+#: htdocs/luci-static/resources/view/homeproxy/node.js:666
 msgid "UDP relay mode"
 msgstr "UDP 中继模式"
 
@@ -2523,7 +2520,7 @@ msgstr "URLTest"
 msgid "URLTest nodes"
 msgstr "URLTest 节点"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:640
+#: htdocs/luci-static/resources/view/homeproxy/node.js:649
 #: htdocs/luci-static/resources/view/homeproxy/server.js:329
 msgid "UUID"
 msgstr "UUID"
@@ -2536,11 +2533,11 @@ msgstr "未知错误。"
 msgid "Unknown error: %s"
 msgstr "未知错误：%s"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1105
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1114
 msgid "Unsupported fingerprint!"
 msgstr "不支持的指纹！"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1384
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1393
 msgid "Update %s subscriptions"
 msgstr "更新 %s 个订阅"
 
@@ -2556,33 +2553,33 @@ msgstr "更新间隔"
 msgid "Update interval of rule set."
 msgstr "规则集更新间隔。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1379
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1388
 msgid "Update nodes from subscriptions"
 msgstr "从订阅更新节点"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1320
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1329
 msgid "Update subscriptions via proxy."
 msgstr "使用代理更新订阅。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1319
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1328
 msgid "Update via proxy"
 msgstr "使用代理更新"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1073
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1082
 msgid "Upload ECH config"
 msgstr "上传 ECH 配置"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:950
+#: htdocs/luci-static/resources/view/homeproxy/node.js:959
 #: htdocs/luci-static/resources/view/homeproxy/server.js:520
 msgid "Upload bandwidth"
 msgstr "上传带宽"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:951
+#: htdocs/luci-static/resources/view/homeproxy/node.js:960
 #: htdocs/luci-static/resources/view/homeproxy/server.js:521
 msgid "Upload bandwidth in Mbps."
 msgstr "上传带宽（单位：Mbps）。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1042
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1051
 #: htdocs/luci-static/resources/view/homeproxy/server.js:752
 msgid "Upload certificate"
 msgstr "上传证书"
@@ -2591,8 +2588,8 @@ msgstr "上传证书"
 msgid "Upload key"
 msgstr "上传密钥"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1045
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1076
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1054
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1085
 #: htdocs/luci-static/resources/view/homeproxy/server.js:755
 #: htdocs/luci-static/resources/view/homeproxy/server.js:774
 msgid "Upload..."
@@ -2602,7 +2599,7 @@ msgstr "上传..."
 msgid "Use ACME TLS certificate issuer."
 msgstr "使用 ACME TLS 证书颁发机构。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:986
+#: htdocs/luci-static/resources/view/homeproxy/node.js:995
 #: htdocs/luci-static/resources/view/homeproxy/server.js:558
 msgid ""
 "Used to verify the hostname on the returned certificates unless insecure is "
@@ -2614,21 +2611,21 @@ msgstr "用于验证返回证书上的主机名。如允许不安全连接，此
 msgid "User"
 msgstr "用户"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1354
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1363
 msgid "User-Agent"
 msgstr "用户代理"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:423
+#: htdocs/luci-static/resources/view/homeproxy/node.js:432
 #: htdocs/luci-static/resources/view/homeproxy/server.js:171
 msgid "Username"
 msgstr "用户名"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:409
+#: htdocs/luci-static/resources/view/homeproxy/node.js:418
 #: htdocs/luci-static/resources/view/homeproxy/server.js:157
 msgid "VLESS"
 msgstr "VLESS"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:410
+#: htdocs/luci-static/resources/view/homeproxy/node.js:419
 #: htdocs/luci-static/resources/view/homeproxy/server.js:158
 msgid "VMess"
 msgstr "VMess"
@@ -2642,37 +2639,37 @@ msgstr "WAN DNS（从接口获取）"
 msgid "WAN IP Policy"
 msgstr "WAN IP 策略"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:732
+#: htdocs/luci-static/resources/view/homeproxy/node.js:741
 #: htdocs/luci-static/resources/view/homeproxy/server.js:400
 msgid "WebSocket"
 msgstr "WebSocket"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1345
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1354
 msgid "Whitelist mode"
 msgstr "白名单模式"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:408
+#: htdocs/luci-static/resources/view/homeproxy/node.js:417
 msgid "WireGuard"
 msgstr "WireGuard"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:871
+#: htdocs/luci-static/resources/view/homeproxy/node.js:880
 msgid "WireGuard peer public key."
 msgstr "WireGuard 对端公钥。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:878
+#: htdocs/luci-static/resources/view/homeproxy/node.js:887
 msgid "WireGuard pre-shared key."
 msgstr "WireGuard 预共享密钥。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:863
+#: htdocs/luci-static/resources/view/homeproxy/node.js:872
 msgid "WireGuard requires base64-encoded private keys."
 msgstr "WireGuard 要求 base64 编码的私钥。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:472
+#: htdocs/luci-static/resources/view/homeproxy/node.js:481
 msgid "Write proxy protocol in the connection header."
 msgstr "在连接头中写入代理协议。"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:842
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1368
+#: htdocs/luci-static/resources/view/homeproxy/node.js:851
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1377
 msgid "Xudp (Xray-core)"
 msgstr "Xudp (Xray-core)"
 
@@ -2684,13 +2681,13 @@ msgstr "您的 %s 已成功上传。大小：%sB。"
 msgid "ZeroSSL"
 msgstr "ZeroSSL"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1047
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1056
 #: htdocs/luci-static/resources/view/homeproxy/server.js:757
 msgid "certificate"
 msgstr "证书"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1006
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1014
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1015
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1023
 #: htdocs/luci-static/resources/view/homeproxy/server.js:569
 #: htdocs/luci-static/resources/view/homeproxy/server.js:577
 msgid "default"
@@ -2700,16 +2697,16 @@ msgstr "默认"
 msgid "failed"
 msgstr "失败"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:728
+#: htdocs/luci-static/resources/view/homeproxy/node.js:737
 #: htdocs/luci-static/resources/view/homeproxy/server.js:396
 msgid "gRPC"
 msgstr "gRPC"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:770
+#: htdocs/luci-static/resources/view/homeproxy/node.js:779
 msgid "gRPC permit without stream"
 msgstr "gRPC 允许无活动连接"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:765
+#: htdocs/luci-static/resources/view/homeproxy/node.js:774
 #: htdocs/luci-static/resources/view/homeproxy/server.js:424
 msgid "gRPC service name"
 msgstr "gRPC 服务名称"
@@ -2724,20 +2721,20 @@ msgstr "gVisor"
 #: htdocs/luci-static/resources/view/homeproxy/client.js:228
 #: htdocs/luci-static/resources/view/homeproxy/client.js:810
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1172
-#: htdocs/luci-static/resources/view/homeproxy/node.js:452
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1101
+#: htdocs/luci-static/resources/view/homeproxy/node.js:461
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1110
 #: htdocs/luci-static/resources/view/homeproxy/server.js:213
 msgid "non-empty value"
 msgstr "非空值"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:581
-#: htdocs/luci-static/resources/view/homeproxy/node.js:840
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1366
+#: htdocs/luci-static/resources/view/homeproxy/node.js:590
+#: htdocs/luci-static/resources/view/homeproxy/node.js:849
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1375
 msgid "none"
 msgstr "无"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:841
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1367
+#: htdocs/luci-static/resources/view/homeproxy/node.js:850
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1376
 msgid "packet addr (v2ray-core v5+)"
 msgstr "packet addr (v2ray-core v5+)"
 
@@ -2761,11 +2758,11 @@ msgstr "sing-box 客户端"
 msgid "sing-box server"
 msgstr "sing-box 服务端"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1083
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1092
 msgid "uTLS fingerprint"
 msgstr "uTLS 指纹"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1084
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1093
 msgid ""
 "uTLS is a fork of \"crypto/tls\", which provides ClientHello fingerprinting "
 "resistance."
@@ -2777,7 +2774,7 @@ msgid "unchecked"
 msgstr "未检查"
 
 #: htdocs/luci-static/resources/homeproxy.js:231
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1274
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1283
 msgid "unique UCI identifier"
 msgstr "独立 UCI 标识"
 
@@ -2785,19 +2782,19 @@ msgstr "独立 UCI 标识"
 msgid "unique value"
 msgstr "独立值"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:474
-#: htdocs/luci-static/resources/view/homeproxy/node.js:595
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1150
+#: htdocs/luci-static/resources/view/homeproxy/node.js:483
+#: htdocs/luci-static/resources/view/homeproxy/node.js:604
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1159
 msgid "v1"
 msgstr "v1"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:475
-#: htdocs/luci-static/resources/view/homeproxy/node.js:596
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1151
+#: htdocs/luci-static/resources/view/homeproxy/node.js:484
+#: htdocs/luci-static/resources/view/homeproxy/node.js:605
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1160
 msgid "v2"
 msgstr "v2"
 
-#: htdocs/luci-static/resources/view/homeproxy/node.js:597
+#: htdocs/luci-static/resources/view/homeproxy/node.js:606
 msgid "v3"
 msgstr "v3"
 
@@ -2814,8 +2811,8 @@ msgstr "有效 DNS 服务器地址"
 #: htdocs/luci-static/resources/view/homeproxy/client.js:483
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1177
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1180
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1331
-#: htdocs/luci-static/resources/view/homeproxy/node.js:1334
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1340
+#: htdocs/luci-static/resources/view/homeproxy/node.js:1343
 msgid "valid URL"
 msgstr "有效网址"
 
@@ -2839,3 +2836,6 @@ msgstr "有效端口值"
 #: htdocs/luci-static/resources/homeproxy.js:322
 msgid "valid uuid"
 msgstr "有效 uuid"
+
+#~ msgid "Match source IP via rule set"
+#~ msgstr "通过规则集匹配源 IP"
