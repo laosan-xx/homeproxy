@@ -31,9 +31,7 @@ if (uci.get(uciconfig, uciinfra, 'china_dns_port'))
 
 /* chinadns server now only accepts single server */
 const china_dns_server = uci.get(uciconfig, ucimain, 'china_dns_server');
-if (china_dns_server === 'wan_114')
-	uci.set(uciconfig, ucimain, 'china_dns_server', '114.114.114.114');
-else if (match(china_dns_server, /,/))
+if (match(china_dns_server, /,/))
 	uci.set(uciconfig, ucimain, 'china_dns_server', split(china_dns_server, ',')[0]);
 else if (match(china_dns_server, / /))
 	uci.set(uciconfig, ucimain, 'china_dns_server', split(china_dns_server, ' ')[0]);
