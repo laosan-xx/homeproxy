@@ -317,15 +317,15 @@ msgstr "国内 DNS 服务器"
 
 #: htdocs/luci-static/resources/view/homeproxy/status.js:197
 msgid "China IPv4 list version"
-msgstr "大陆 IPv4 库版本"
+msgstr "国内 IPv4 库版本"
 
 #: htdocs/luci-static/resources/view/homeproxy/status.js:201
 msgid "China IPv6 list version"
-msgstr "大陆 IPv6 库版本"
+msgstr "国内 IPv6 库版本"
 
 #: htdocs/luci-static/resources/view/homeproxy/status.js:205
 msgid "China list version"
-msgstr "大陆域名列表版本"
+msgstr "国内域名列表版本"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:588
 msgid "Chromium / Cronet"
@@ -368,7 +368,7 @@ msgstr "CloudFlare 公共DNS (DoH)"
 #: htdocs/luci-static/resources/view/homeproxy/server.js:110
 #: htdocs/luci-static/resources/view/homeproxy/status.js:129
 msgid "Collecting data..."
-msgstr "收集数据中..."
+msgstr "正在收集数据中..."
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:265
 msgid "Common ports only (bypass P2P traffic)"
@@ -930,11 +930,11 @@ msgstr "HomeProxy 服务端"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:485
 msgid "Hop interval"
-msgstr ""
+msgstr "跳跃间隔"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:479
 msgid "Hopping port"
-msgstr ""
+msgstr "跳跃端口"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:778
 #: htdocs/luci-static/resources/view/homeproxy/node.js:783
@@ -956,7 +956,7 @@ msgstr "主机密钥算法"
 #: htdocs/luci-static/resources/view/homeproxy/client.js:540
 #: htdocs/luci-static/resources/view/homeproxy/client.js:908
 msgid "Host/IP fields"
-msgstr ""
+msgstr "主机/IP 字段"
 
 #: htdocs/luci-static/resources/view/homeproxy/server.js:357
 msgid ""
@@ -1067,7 +1067,7 @@ msgstr "单位：秒。默认使用 <code>300</code>。"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:889
 msgid "In seconds. Disabled by default."
-msgstr ""
+msgstr "单位：秒。默认禁用。"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:755
 msgid "Independent cache per server"
@@ -1222,7 +1222,7 @@ msgstr "伪装"
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1072
 msgid ""
 "Match IP CIDR with query response. Current rule will be skipped if not match."
-msgstr ""
+msgstr "使用查询响应匹配 IP CIDR。如果不匹配，则跳过当前规则。"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:682
 msgid "Match IP CIDR."
@@ -1261,7 +1261,7 @@ msgstr "匹配端口。"
 #: htdocs/luci-static/resources/view/homeproxy/client.js:686
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1076
 msgid "Match private IP"
-msgstr ""
+msgstr "匹配私有 IP"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1077
 msgid "Match private IP with query response."
@@ -1270,7 +1270,7 @@ msgstr "使用查询响应匹配私有 IP。"
 #: htdocs/luci-static/resources/view/homeproxy/client.js:678
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1068
 msgid "Match private source IP"
-msgstr ""
+msgstr "匹配私有源 IP"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:710
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1101
@@ -1581,7 +1581,7 @@ msgstr "性能可能会略有下降，建议仅在需要时开启。"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:888
 msgid "Persistent keepalive interval"
-msgstr ""
+msgstr "持久 keepalive 间隔"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:807
 #: htdocs/luci-static/resources/view/homeproxy/server.js:458
@@ -1613,7 +1613,7 @@ msgstr "端口字段"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:486
 msgid "Port hopping interval in seconds."
-msgstr ""
+msgstr "端口跳跃间隔（单位：秒）。"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:704
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1095
@@ -1644,7 +1644,7 @@ msgstr "私钥指纹"
 #: htdocs/luci-static/resources/view/homeproxy/client.js:542
 #: htdocs/luci-static/resources/view/homeproxy/client.js:910
 msgid "Process fields"
-msgstr ""
+msgstr "进程字段"
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:709
 #: htdocs/luci-static/resources/view/homeproxy/client.js:1100
@@ -2820,33 +2820,3 @@ msgstr "有效端口值"
 #: htdocs/luci-static/resources/homeproxy.js:322
 msgid "valid uuid"
 msgstr "有效 uuid"
-
-#~ msgid "Disable dynamic record sizing"
-#~ msgstr "禁用动态记录大小"
-
-#~ msgid "Host fields"
-#~ msgstr "主机字段"
-
-#~ msgid "Match IP CIDR with query response."
-#~ msgstr "使用查询响应匹配 IP CIDR。"
-
-#~ msgid "Match private IP."
-#~ msgstr "匹配私有 IP。"
-
-#~ msgid "Match private source IP."
-#~ msgstr "匹配私有源 IP。"
-
-#~ msgid "Private IP"
-#~ msgstr "私有 IP"
-
-#~ msgid "Private source IP"
-#~ msgstr "私有源 IP"
-
-#~ msgid "SRC-IP fields"
-#~ msgstr "源 IP 字段"
-
-#~ msgid "SRC-Port fields"
-#~ msgstr "源端口字段"
-
-#~ msgid "Match source IP via rule set"
-#~ msgstr "通过规则集匹配源 IP"
