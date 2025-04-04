@@ -42,14 +42,16 @@ check_list_update() {
 	local REPO_NAME="$2"
 	local REPO_BRANCH="$3"
 	local REPO_FILE="$4"
-	local GITHUB_TOKEN="$(uci -q get homeproxy.infra.github_token)"
+	local GITHUB_TOKEN="$(uci -q get homeproxy.config.github_token)"
 
 	set_lock "set" "$LIST_FILE"
 
-	local NEW_VER=$(curl -sL -H "Authorization: ${GITHUB_TOKEN:-null}" "https://api.github.com/repos/$REPO_NAME/releases/latest" | jsonfilter -e "@.tag_name")
+	local AUTH_HEADER=""
+	[ -n "$GITHUB_TOKEN" ] && AUTH_HEADER="--header=Authorization: Bearer $GITHUB_TOKEN"
+
+	local NEW_VER=$(curl -sL $AUTH_HEADER "https://api.github.com/repos/$REPO_NAME/releases/latest" | jsonfilter -e "@.tag_name")
 	if [ -z "$NEW_VER" ]; then
 		log "[$(to_upper "$LIST_FILE")] Failed to get the latest version, please retry later."
-
 		set_lock "remove" "$LIST_FILE"
 		return 1
 	fi
