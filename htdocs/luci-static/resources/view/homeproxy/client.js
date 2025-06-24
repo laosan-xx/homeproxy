@@ -185,7 +185,7 @@ return view.extend({
 		o.value('https://dns.adguard-dns.com/dns-query', _('AdGuard Public DNS (DoH)'));
 		o.value('https://dns.sb/dns-query', _('DNS.SB Public DNS (DoH)'));
 		o.value('https://dns.opendns.com/dns-query', _('Cisco Public DNS (DoH)'));
-		o.default = 'https://dns.quad9.net/dns-query';
+		o.default = 'https://dns.cloudflare.com/dns-query';
 		o.rmempty = false;
 		o.depends({'routing_mode': 'custom', '!reverse': true});
 		o.validate = function(section_id, value) {
@@ -293,7 +293,7 @@ return view.extend({
 		o.rmempty = false;
 
 		o = s.taboption('routing', form.Flag, 'ipv6_support', _('IPv6 support'));
-		o.default = o.enabled;
+		o.default = o.disabled;
 		o.rmempty = false;
 
 		/* Custom routing settings start */
