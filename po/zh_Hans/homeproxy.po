@@ -114,7 +114,7 @@ msgstr "所有端口"
 
 #: htdocs/luci-static/resources/view/homeproxy/server.js:152
 msgid "Allow access from the Internet."
-msgstr ""
+msgstr "允许来自互联网的访问。"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:994
 #: htdocs/luci-static/resources/view/homeproxy/node.js:1351
@@ -812,7 +812,7 @@ msgstr "Firefox / uquic firefox"
 
 #: htdocs/luci-static/resources/view/homeproxy/server.js:151
 msgid "Firewall"
-msgstr ""
+msgstr "防火墙"
 
 #: htdocs/luci-static/resources/view/homeproxy/node.js:686
 #: htdocs/luci-static/resources/view/homeproxy/server.js:390
