@@ -9,7 +9,7 @@ msgstr ""
 msgid "%s nodes removed"
 msgstr ""
 
-#: htdocs/luci-static/resources/homeproxy.js:286
+#: htdocs/luci-static/resources/homeproxy.js:279
 msgid "/etc/homeproxy/certs/..., /etc/acme/..., /etc/ssl/..."
 msgstr ""
 
@@ -721,14 +721,14 @@ msgstr ""
 msgid "Encrypt method"
 msgstr ""
 
-#: htdocs/luci-static/resources/homeproxy.js:244
-#: htdocs/luci-static/resources/homeproxy.js:278
-#: htdocs/luci-static/resources/homeproxy.js:286
-#: htdocs/luci-static/resources/homeproxy.js:304
-#: htdocs/luci-static/resources/homeproxy.js:313
-#: htdocs/luci-static/resources/homeproxy.js:324
-#: htdocs/luci-static/resources/homeproxy.js:333
-#: htdocs/luci-static/resources/homeproxy.js:335
+#: htdocs/luci-static/resources/homeproxy.js:237
+#: htdocs/luci-static/resources/homeproxy.js:271
+#: htdocs/luci-static/resources/homeproxy.js:279
+#: htdocs/luci-static/resources/homeproxy.js:297
+#: htdocs/luci-static/resources/homeproxy.js:306
+#: htdocs/luci-static/resources/homeproxy.js:317
+#: htdocs/luci-static/resources/homeproxy.js:326
+#: htdocs/luci-static/resources/homeproxy.js:328
 #: htdocs/luci-static/resources/view/homeproxy/client.js:194
 #: htdocs/luci-static/resources/view/homeproxy/client.js:206
 #: htdocs/luci-static/resources/view/homeproxy/client.js:210
@@ -774,7 +774,7 @@ msgstr ""
 msgid "Failed to generate %s, error: %s."
 msgstr ""
 
-#: htdocs/luci-static/resources/homeproxy.js:268
+#: htdocs/luci-static/resources/homeproxy.js:261
 msgid "Failed to upload %s, error: %s."
 msgstr ""
 
@@ -2614,7 +2614,7 @@ msgstr ""
 msgid "Xudp (Xray-core)"
 msgstr ""
 
-#: htdocs/luci-static/resources/homeproxy.js:266
+#: htdocs/luci-static/resources/homeproxy.js:259
 msgid "Your %s was successfully uploaded. Size: %sB."
 msgstr ""
 
@@ -2656,8 +2656,8 @@ msgstr ""
 msgid "gVisor"
 msgstr ""
 
-#: htdocs/luci-static/resources/homeproxy.js:313
-#: htdocs/luci-static/resources/homeproxy.js:333
+#: htdocs/luci-static/resources/homeproxy.js:306
+#: htdocs/luci-static/resources/homeproxy.js:326
 #: htdocs/luci-static/resources/view/homeproxy/client.js:194
 #: htdocs/luci-static/resources/view/homeproxy/client.js:228
 #: htdocs/luci-static/resources/view/homeproxy/client.js:465
@@ -2714,12 +2714,12 @@ msgstr ""
 msgid "unchecked"
 msgstr ""
 
-#: htdocs/luci-static/resources/homeproxy.js:244
+#: htdocs/luci-static/resources/homeproxy.js:237
 #: htdocs/luci-static/resources/view/homeproxy/node.js:1268
 msgid "unique UCI identifier"
 msgstr ""
 
-#: htdocs/luci-static/resources/homeproxy.js:324
+#: htdocs/luci-static/resources/homeproxy.js:317
 msgid "unique value"
 msgstr ""
 
@@ -2757,7 +2757,7 @@ msgstr ""
 msgid "valid URL"
 msgstr ""
 
-#: htdocs/luci-static/resources/homeproxy.js:278
+#: htdocs/luci-static/resources/homeproxy.js:271
 msgid "valid base64 key with %d characters"
 msgstr ""
 
@@ -2766,7 +2766,7 @@ msgstr ""
 msgid "valid hostname"
 msgstr ""
 
-#: htdocs/luci-static/resources/homeproxy.js:304
+#: htdocs/luci-static/resources/homeproxy.js:297
 msgid "valid port range (port1:port2)"
 msgstr ""
 
@@ -2774,6 +2774,6 @@ msgstr ""
 msgid "valid port value"
 msgstr ""
 
-#: htdocs/luci-static/resources/homeproxy.js:335
+#: htdocs/luci-static/resources/homeproxy.js:328
 msgid "valid uuid"
 msgstr ""
