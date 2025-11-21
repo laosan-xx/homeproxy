@@ -370,7 +370,7 @@ msgid "Client version"
 msgstr ""
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:182
-msgid "CloudFlare Public DNS (1.1.1.1)"
+msgid "CloudFlare TCP DNS"
 msgstr ""
 
 #: htdocs/luci-static/resources/view/homeproxy/server.js:641
@@ -956,7 +956,7 @@ msgid "Google"
 msgstr ""
 
 #: htdocs/luci-static/resources/view/homeproxy/client.js:184
-msgid "Google Public DNS (8.8.8.8)"
+msgid "Google TCP DNS"
 msgstr ""
 
 #: root/usr/share/rpcd/acl.d/luci-app-homeproxy.json:3
